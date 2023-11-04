@@ -1,3 +1,5 @@
+---------------------------------
+--CREACION DE TABLAS
 -- Momento 1 (creacion de tablas)
 CREATE TABLE customers(
     customerid INT primary key,
@@ -24,11 +26,14 @@ CREATE TABLE calls(
 );
 
 -- Llenar con los csv >> Click derecho > Import data elegir los csv
+----------------------------
+select*from calls
+select*from agents
+select*from customers
+----------------------------
 
--- Se debe crear una cnsulta que para cada agente le asigne el cliente mas rapido al que le vendio?
--- Como lo harias?
 
--- Consulta ineficiente
+-- CONSULTA LENTA
 SELECT * FROM
 (SELECT ca.agentid, ca.duration, max(customerid) AS customerid
    FROM
@@ -43,3 +48,25 @@ SELECT * FROM
    WHERE productsold = 1
    GROUP BY ca.agentid, ca.duration) as x
    LEFT JOIN customers cu on x.customerid= cu.customerid
+   
+   
+   -- CONSULTA RÁPIDA
+   
+SELECT a.name AS AgentName, cu.name AS CustomerName, x.duration
+FROM
+(
+   SELECT ca.agentid, ca.duration, max(customerid) AS cid
+   FROM
+   (
+       SELECT agentid, min(duration) as fastestcall
+       FROM calls
+       WHERE productsold = 1
+       GROUP BY agentid
+   ) min
+   JOIN calls ca ON ca.agentid = min.agentid AND ca.duration = min.fastestcall
+   WHERE productsold = 1
+   GROUP BY ca.agentid, ca.duration
+) x
+JOIN agents a ON x.agentid = a.agentid
+JOIN customers cu ON cu.customerid = x.cid
+OPTION (QUERYTRACEON 8649)

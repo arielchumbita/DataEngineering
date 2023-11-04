@@ -33,17 +33,16 @@ customers: customerid (distribution key), name (sort key)
 
 
 -- SQL
-
 -- Create the agents table
-CREATE TABLE agentsx (
-    agentid INTEGER PRIMARY KEY,
-    name VARCHAR(50)
+create table ariel_chumbita_coderhouse.agentsx (
+agentid INTEGER PRIMARY KEY,
+name VARCHAR(50)
 )
-DISTSTYLE ALL
+DISTSTYLE ALL --Reparte tabla en todos los notos, replica en cada nodo. Al no ser pesada.
 SORTKEY(name);
 
 -- Create the calls table
-CREATE TABLE callsx (
+CREATE TABLE ariel_chumbita_coderhouse.callsx (
     callid INTEGER PRIMARY KEY,
     agentid INTEGER REFERENCES agents(agentid),
     customerid INTEGER,
@@ -56,7 +55,7 @@ DISTKEY(agentid)
 SORTKEY(pickedup);
 
 -- Create the customers table
-CREATE TABLE customersx (
+CREATE TABLE ariel_chumbita_coderhouse.customersx (
     customerid INTEGER PRIMARY KEY,
     name VARCHAR(50),
     occupation VARCHAR(50),
@@ -77,10 +76,10 @@ La opción DISTSTYLE EVEN distribuye los datos uniformemente entre todos los nod
 
 El parámetro DISTKEY especifica la columna de clave de distribución para tablas con un estilo de 
 distribución DISTSTYLE KEY. Esto determina cómo se dividen los datos entre los nodos.
->>> SE USA MUCHO EN JOINS
+SE USA MUCHO EN JOINS
 
 El parámetro SORTKEY especifica las columnas de clave de clasificación de la tabla, 
 lo que puede mejorar el rendimiento de las consultas al optimizar el orden de los
 datos en el disco.
 
->>> SE USA MUCHO EN WHERE
+SE USA MUCHO EN WHERE
