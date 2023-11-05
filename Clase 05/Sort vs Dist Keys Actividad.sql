@@ -1,11 +1,11 @@
-# Contexto tipico
+-- Contexto tipico
 agents: agentid (primary key)
 
 calls: callid (primary key), agentid (foreign key), productsold (index), customerid (foreign key)
 
 customers: customerid (primary key), email (index), phonenumber (index)
 
-# Sort y distribution keys
+-- Sort y distribution keys
 
 agents:
 Para la tabla de agentes, la distkey debe elegirse en función de cómo se consultan y unen los datos 
@@ -41,6 +41,7 @@ name VARCHAR(50)
 DISTSTYLE ALL --Reparte tabla en todos los notos, replica en cada nodo. Al no ser pesada.
 SORTKEY(name);
 
+
 -- Create the calls table
 CREATE TABLE ariel_chumbita_coderhouse.callsx (
     callid INTEGER PRIMARY KEY,
@@ -53,6 +54,7 @@ CREATE TABLE ariel_chumbita_coderhouse.callsx (
 DISTSTYLE KEY
 DISTKEY(agentid)
 SORTKEY(pickedup);
+
 
 -- Create the customers table
 CREATE TABLE ariel_chumbita_coderhouse.customersx (
