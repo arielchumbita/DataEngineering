@@ -1,6 +1,6 @@
 import pandas as pd
 # Lectura de archivo
-df= pd.read_csv('pokemon_data.txt',delimiter='\t')
+df= pd.read_csv('pokemon_data.txt',delimiter='\t') #Adaptable a csv y txt
 # Mostrar ultimas 5 filas
 df.tail()
 print(df.shape)

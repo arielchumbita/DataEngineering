@@ -1,6 +1,6 @@
 # Importar librería
 import pandas as pd
-# Definir url importante que sea formato raw
+# Definir url importante que sea formato raw (Opción view raw)
 url = 'https://raw.githubusercontent.com/JJTorresDS/stocks-ds-edu/main/stocks.csv'
 # Lectura de archivo
 df = pd.read_csv(url, index_col=0)

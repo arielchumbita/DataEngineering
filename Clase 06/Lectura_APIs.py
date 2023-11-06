@@ -1,6 +1,8 @@
-# Traer archivo
+#Traer archivo utilizando siguientes pasos:
 # cd 'Clase 6'
 #wget -O cars_clus.csv https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/cars_clus.csv
+
+
 import pandas as pd
 # Ponerlo en el entorno de trabajo
 filename = 'cars_clus.csv'

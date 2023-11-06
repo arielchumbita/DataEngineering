@@ -8,6 +8,5 @@ print(df.columns)
 print(df[['index','ID','Year_Birth','Education','Income']].head())
 # Subset
 df1=df.head()
-# Exportar
+# Exportar con función to.
 df1.to_csv('archivo_p.csv',sep=',',index=False)
-
