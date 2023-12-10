@@ -1,0 +1,13 @@
+TENGO EL ARCHIVO FILE DOCKER
+
+CREO LA IMAGEN DOCKER
+docker build -t imagen-python .
+
+VERIFICO QUE ESTÉ LA IMAGEN
+docker images
+
+CORRO
+docker run imagen-python
+
+VERIFICO CONTENEDORES
+docker ps -a
