@@ -6,12 +6,16 @@ cd Desktop
 cd "Curso Data Engineering David BU/Clase 9/web-page/web-page/"
 ls
 4. Verificar el contenido de la carpeta con: ls
+
+4.bis Verifico versión de docker instalada
+docker --version
+
 5.Creamos la imagen con:
 “””
-docker build -t img-web-estatica .
+docker build -t img-estatica .
 “””
 Explicacion:>>>>>>>>>
-Este código es un comando para crear una imagen de Docker con el nombre de etiqueta img-web-estatica.
+Este código es un comando para crear una imagen de Docker con el nombre de etiqueta img-estatica.
 
 Esto es lo que significa cada parte del código:
 
@@ -20,13 +24,16 @@ docker build es el comando para construir una imagen de Docker.
 img-web-estatica es el nombre (etiqueta) que se le da a la imagen que se está construyendo.
 . especifica el directorio actual como contexto de compilación. El proceso de compilación de Docker usa el contexto de compilación para ubicar los archivos necesarios para compilar la imagen.
 
+6.bis Verifico si la imagen está creada
+docker images
+
 6.Verifica las imagenes disponibles con: docker ps -a
 docker ps muestra solo los contenedores en ejecución, mientras que el comando docker ps -a muestra todos los contenedores, incluidos los detenidos y cerrados.
 
 7.Analiza las imagenes: docker images
 8.Ejecuta tu imagen con:
 “””
-9.docker run -it -d -p 80:80 img-web-estatica
+9.docker run -it -d -p 80:80 img-estatica
 “””
 Explicacion: >>>>>>>>>>>
 docker run es el comando para ejecutar un contenedor Docker.
@@ -36,6 +43,8 @@ docker run es el comando para ejecutar un contenedor Docker.
 img-web-estatica es el nonbre de la imagen de Docker usada para crear el container 
 
 10.Lanza tu servicio en una página web con localhost
+localhost:80
+
 http://localhost/80
 
 Deberás visualizar tu página web
