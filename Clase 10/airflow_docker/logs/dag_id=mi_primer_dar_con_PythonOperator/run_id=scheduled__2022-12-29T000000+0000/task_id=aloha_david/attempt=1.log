@@ -1,0 +1,24 @@
+[2023-12-10 20:22:28,320] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: mi_primer_dar_con_PythonOperator.aloha_david scheduled__2022-12-29T00:00:00+00:00 [queued]>
+[2023-12-10 20:22:28,357] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: mi_primer_dar_con_PythonOperator.aloha_david scheduled__2022-12-29T00:00:00+00:00 [queued]>
+[2023-12-10 20:22:28,360] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-10 20:22:28,384] {taskinstance.py:1377} INFO - Starting attempt 1 of 6
+[2023-12-10 20:22:28,396] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-10 20:22:28,746] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): aloha_david> on 2022-12-29 00:00:00+00:00
+[2023-12-10 20:22:28,777] {standard_task_runner.py:52} INFO - Started process 1411 to run task
+[2023-12-10 20:22:28,792] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'mi_primer_dar_con_PythonOperator', 'aloha_david', 'scheduled__2022-12-29T00:00:00+00:00', '--job-id', '2005', '--raw', '--subdir', 'DAGS_FOLDER/mi_primer_dag_pythonoperator.py', '--cfg-path', '/tmp/tmphefh4car', '--error-file', '/tmp/tmp4l169wyf']
+[2023-12-10 20:22:28,815] {standard_task_runner.py:80} INFO - Job 2005: Subtask aloha_david
+[2023-12-10 20:22:29,498] {task_command.py:371} INFO - Running <TaskInstance: mi_primer_dar_con_PythonOperator.aloha_david scheduled__2022-12-29T00:00:00+00:00 [running]> on host 42828894a739
+[2023-12-10 20:22:30,352] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=DavidBU
+AIRFLOW_CTX_DAG_ID=mi_primer_dar_con_PythonOperator
+AIRFLOW_CTX_TASK_ID=aloha_david
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-29T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-12-29T00:00:00+00:00
+[2023-12-10 20:22:30,362] {logging_mixin.py:115} INFO - Aloha Mundo soy yo!
+[2023-12-10 20:22:30,363] {python.py:173} INFO - Done. Returned value was: None
+[2023-12-10 20:22:30,442] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=mi_primer_dar_con_PythonOperator, task_id=aloha_david, execution_date=20221229T000000, start_date=20231210T202228, end_date=20231210T202230
+[2023-12-10 20:22:30,527] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-12-10 20:22:30,701] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

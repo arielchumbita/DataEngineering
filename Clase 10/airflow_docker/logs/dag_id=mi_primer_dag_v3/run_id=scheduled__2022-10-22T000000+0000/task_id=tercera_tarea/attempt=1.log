@@ -1,0 +1,28 @@
+[2023-12-10 19:33:07,139] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: mi_primer_dag_v3.tercera_tarea scheduled__2022-10-22T00:00:00+00:00 [queued]>
+[2023-12-10 19:33:07,350] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: mi_primer_dag_v3.tercera_tarea scheduled__2022-10-22T00:00:00+00:00 [queued]>
+[2023-12-10 19:33:07,365] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-10 19:33:07,381] {taskinstance.py:1377} INFO - Starting attempt 1 of 6
+[2023-12-10 19:33:07,399] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-10 19:33:07,878] {taskinstance.py:1397} INFO - Executing <Task(BashOperator): tercera_tarea> on 2022-10-22 00:00:00+00:00
+[2023-12-10 19:33:08,034] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'mi_primer_dag_v3', 'tercera_tarea', 'scheduled__2022-10-22T00:00:00+00:00', '--job-id', '252', '--raw', '--subdir', 'DAGS_FOLDER/primer_dag_v3.py', '--cfg-path', '/tmp/tmpab6r4s1m', '--error-file', '/tmp/tmpelcozlb_']
+[2023-12-10 19:33:08,100] {standard_task_runner.py:80} INFO - Job 252: Subtask tercera_tarea
+[2023-12-10 19:33:07,992] {standard_task_runner.py:52} INFO - Started process 1034 to run task
+[2023-12-10 19:33:09,786] {task_command.py:371} INFO - Running <TaskInstance: mi_primer_dag_v3.tercera_tarea scheduled__2022-10-22T00:00:00+00:00 [running]> on host 42828894a739
+[2023-12-10 19:33:10,787] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=DavidBU
+AIRFLOW_CTX_DAG_ID=mi_primer_dag_v3
+AIRFLOW_CTX_TASK_ID=tercera_tarea
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-22T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-10-22T00:00:00+00:00
+[2023-12-10 19:33:10,789] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-12-10 19:33:10,800] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'echo hola, soy la tarea 3 y sere corrida luego de Tarea 1 al mismo tiempo que Tarea 2']
+[2023-12-10 19:33:10,932] {subprocess.py:85} INFO - Output:
+[2023-12-10 19:33:10,934] {subprocess.py:92} INFO - hola, soy la tarea 3 y sere corrida luego de Tarea 1 al mismo tiempo que Tarea 2
+[2023-12-10 19:33:10,981] {subprocess.py:96} INFO - Command exited with return code 0
+[2023-12-10 19:33:11,885] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=mi_primer_dag_v3, task_id=tercera_tarea, execution_date=20221022T000000, start_date=20231210T193307, end_date=20231210T193311
+[2023-12-10 19:33:12,152] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-12-10 19:33:12,424] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

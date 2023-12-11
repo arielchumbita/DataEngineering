@@ -1,0 +1,30 @@
+[2023-12-10 19:40:54,895] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: mi_primer_dag_v3.segunda_tarea scheduled__2023-04-13T00:00:00+00:00 [queued]>
+[2023-12-10 19:40:55,157] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: mi_primer_dag_v3.segunda_tarea scheduled__2023-04-13T00:00:00+00:00 [queued]>
+[2023-12-10 19:40:55,204] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-10 19:40:55,243] {taskinstance.py:1377} INFO - Starting attempt 1 of 6
+[2023-12-10 19:40:55,292] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-10 19:40:55,761] {taskinstance.py:1397} INFO - Executing <Task(BashOperator): segunda_tarea> on 2023-04-13 00:00:00+00:00
+[2023-12-10 19:40:55,985] {standard_task_runner.py:52} INFO - Started process 2780 to run task
+[2023-12-10 19:40:56,066] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'mi_primer_dag_v3', 'segunda_tarea', 'scheduled__2023-04-13T00:00:00+00:00', '--job-id', '769', '--raw', '--subdir', 'DAGS_FOLDER/primer_dag_v3.py', '--cfg-path', '/tmp/tmp_2kg1oxo', '--error-file', '/tmp/tmp6vh3c8o6']
+[2023-12-10 19:40:56,082] {standard_task_runner.py:80} INFO - Job 769: Subtask segunda_tarea
+[2023-12-10 19:40:58,034] {task_command.py:371} INFO - Running <TaskInstance: mi_primer_dag_v3.segunda_tarea scheduled__2023-04-13T00:00:00+00:00 [running]> on host 42828894a739
+[2023-12-10 19:41:00,199] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=DavidBU
+AIRFLOW_CTX_DAG_ID=mi_primer_dag_v3
+AIRFLOW_CTX_TASK_ID=segunda_tarea
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-13T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-04-13T00:00:00+00:00
+[2023-12-10 19:41:00,218] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-12-10 19:41:00,270] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'echo hola, soy la tarea 2 y sere corrida luego de la Tarea 1']
+[2023-12-10 19:41:00,486] {subprocess.py:85} INFO - Output:
+[2023-12-10 19:41:00,547] {subprocess.py:92} INFO - hola, soy la tarea 2 y sere corrida luego de la Tarea 1
+[2023-12-10 19:41:00,616] {subprocess.py:96} INFO - Command exited with return code 0
+[2023-12-10 19:41:01,418] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=mi_primer_dag_v3, task_id=segunda_tarea, execution_date=20230413T000000, start_date=20231210T194055, end_date=20231210T194101
+[2023-12-10 19:41:01,787] {local_task_job.py:221} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2023-12-10 19:41:01,938] {process_utils.py:129} INFO - Sending Signals.SIGTERM to group 2780. PIDs of all processes in the group: [2780]
+[2023-12-10 19:41:01,973] {process_utils.py:80} INFO - Sending the signal Signals.SIGTERM to group 2780
+[2023-12-10 19:41:02,136] {process_utils.py:75} INFO - Process psutil.Process(pid=2780, status='terminated', exitcode=0, started='19:40:55') (2780) terminated with exit code 0
