@@ -1,0 +1,25 @@
+[2023-12-12 02:56:22,976] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: Entregable3_Chumbita.transformar_data manual__2023-12-12T02:56:17.234084+00:00 [queued]>
+[2023-12-12 02:56:22,995] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: Entregable3_Chumbita.transformar_data manual__2023-12-12T02:56:17.234084+00:00 [queued]>
+[2023-12-12 02:56:22,995] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-12 02:56:22,996] {taskinstance.py:1377} INFO - Starting attempt 1 of 6
+[2023-12-12 02:56:22,997] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-12 02:56:23,022] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): transformar_data> on 2023-12-12 02:56:17.234084+00:00
+[2023-12-12 02:56:23,028] {standard_task_runner.py:52} INFO - Started process 1357 to run task
+[2023-12-12 02:56:23,033] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'Entregable3_Chumbita', 'transformar_data', 'manual__2023-12-12T02:56:17.234084+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/ETL_Entregable3_Chumbita.py', '--cfg-path', '/tmp/tmpgb5ilkvd', '--error-file', '/tmp/tmp7zqrasm8']
+[2023-12-12 02:56:23,035] {standard_task_runner.py:80} INFO - Job 30: Subtask transformar_data
+[2023-12-12 02:56:23,142] {task_command.py:371} INFO - Running <TaskInstance: Entregable3_Chumbita.transformar_data manual__2023-12-12T02:56:17.234084+00:00 [running]> on host 02fb1b542166
+[2023-12-12 02:56:23,218] {logging_mixin.py:115} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-12-12 02:56:23,280] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=ArielChumbita
+AIRFLOW_CTX_DAG_ID=Entregable3_Chumbita
+AIRFLOW_CTX_TASK_ID=transformar_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-12-12T02:56:17.234084+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-12-12T02:56:17.234084+00:00
+[2023-12-12 02:56:23,282] {logging_mixin.py:115} INFO - Transformando la data para la fecha: 2023-12-12 2
+[2023-12-12 02:56:23,312] {python.py:173} INFO - Done. Returned value was: None
+[2023-12-12 02:56:23,336] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=Entregable3_Chumbita, task_id=transformar_data, execution_date=20231212T025617, start_date=20231212T025622, end_date=20231212T025623
+[2023-12-12 02:56:23,366] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-12-12 02:56:23,461] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
