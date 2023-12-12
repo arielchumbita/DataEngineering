@@ -1,23 +1,10 @@
-!pip install pytrends
-
 from datetime import timedelta,datetime
 from pathlib import Path
 import json
-
-#import requests
-from requests.adapters import HTTPAdapter
-from requests.packages.urllib3.util.retry import Retry
-from requests import status_codes
-
-from pytrends import exceptions
-
-from urllib.parse import quote
-
+import requests
 import psycopg2
 from airflow import DAG
 from sqlalchemy import create_engine
-
-
 # Operadores
 from airflow.operators.python_operator import PythonOperator
 #from airflow.utils.dates import days_ago
@@ -51,9 +38,9 @@ default_args = {
 }
 
 BC_dag = DAG(
-    dag_id='ETL_Entregable3_Chumbita',
+    dag_id='Entregable3_Chumbita',
     default_args=default_args,
-    description='Agrega data de Google Trends',
+    description='Agrega data de Bitcoin de forma diaria',
     schedule_interval="@daily",
     catchup=False
 )
@@ -65,8 +52,8 @@ def extraer_data(exec_date):
     try:
          print(f"Adquiriendo data para la fecha: {exec_date}")
          date = datetime.strptime(exec_date, '%Y-%m-%d %H')
-         url = "https://trends.google.com/trends"
-         headers = {"Accept-Encoding": "gzip, deflate"} #Especificar formato de la información
+         url = "https://data.messari.io/api/v1/assets/bitcoin/metrics"
+         headers = {"Accept-Encoding": "gzip, deflate"}
          response = requests.get(url, headers=headers)
          if response:
               print('Success!')
