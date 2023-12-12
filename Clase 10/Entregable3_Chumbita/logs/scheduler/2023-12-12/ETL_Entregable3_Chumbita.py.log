@@ -313,3 +313,10 @@
 [2023-12-12 02:30:51,422] {logging_mixin.py:115} INFO - [2023-12-12 02:30:51,421] {dag.py:2420} INFO - Sync 1 DAGs
 [2023-12-12 02:30:51,482] {logging_mixin.py:115} INFO - [2023-12-12 02:30:51,482] {dag.py:2972} INFO - Setting next_dagrun for Entregable3_Chumbita to 2023-12-12T00:00:00+00:00, run_after=2023-12-13T00:00:00+00:00
 [2023-12-12 02:30:51,502] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_Entregable3_Chumbita.py took 0.874 seconds
+[2023-12-12 02:31:01,700] {processor.py:153} INFO - Started process (PID=482) to work on /opt/airflow/dags/ETL_Entregable3_Chumbita.py
+[2023-12-12 02:31:01,701] {processor.py:641} INFO - Processing file /opt/airflow/dags/ETL_Entregable3_Chumbita.py for tasks to queue
+[2023-12-12 02:31:01,712] {logging_mixin.py:115} INFO - [2023-12-12 02:31:01,711] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Entregable3_Chumbita.py
+[2023-12-12 02:31:02,728] {processor.py:651} INFO - DAG(s) dict_keys(['Entregable3_Chumbita']) retrieved from /opt/airflow/dags/ETL_Entregable3_Chumbita.py
+[2023-12-12 02:31:02,795] {logging_mixin.py:115} INFO - [2023-12-12 02:31:02,794] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-12 02:31:02,838] {logging_mixin.py:115} INFO - [2023-12-12 02:31:02,837] {dag.py:2972} INFO - Setting next_dagrun for Entregable3_Chumbita to 2023-12-12T00:00:00+00:00, run_after=2023-12-13T00:00:00+00:00
+[2023-12-12 02:31:02,865] {processor.py:161} INFO - Processing /opt/airflow/dags/ETL_Entregable3_Chumbita.py took 1.171 seconds
