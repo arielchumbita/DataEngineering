@@ -1,0 +1,26 @@
+[2023-12-12 02:24:21,796] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: Entregable3_Chumbita.extraer_data manual__2023-12-12T02:24:13.269296+00:00 [queued]>
+[2023-12-12 02:24:21,875] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: Entregable3_Chumbita.extraer_data manual__2023-12-12T02:24:13.269296+00:00 [queued]>
+[2023-12-12 02:24:21,880] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-12 02:24:21,883] {taskinstance.py:1377} INFO - Starting attempt 1 of 6
+[2023-12-12 02:24:21,884] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-12 02:24:22,004] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): extraer_data> on 2023-12-12 02:24:13.269296+00:00
+[2023-12-12 02:24:22,025] {standard_task_runner.py:52} INFO - Started process 239 to run task
+[2023-12-12 02:24:22,056] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'Entregable3_Chumbita', 'extraer_data', 'manual__2023-12-12T02:24:13.269296+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/ETL_Entregable3_Chumbita.py', '--cfg-path', '/tmp/tmpar1ibi71', '--error-file', '/tmp/tmpqwxo4639']
+[2023-12-12 02:24:22,063] {standard_task_runner.py:80} INFO - Job 6: Subtask extraer_data
+[2023-12-12 02:24:22,924] {task_command.py:371} INFO - Running <TaskInstance: Entregable3_Chumbita.extraer_data manual__2023-12-12T02:24:13.269296+00:00 [running]> on host 02fb1b542166
+[2023-12-12 02:24:23,198] {logging_mixin.py:115} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-12-12 02:24:23,472] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=ArielChumbita
+AIRFLOW_CTX_DAG_ID=Entregable3_Chumbita
+AIRFLOW_CTX_TASK_ID=extraer_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-12-12T02:24:13.269296+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-12-12T02:24:13.269296+00:00
+[2023-12-12 02:24:23,480] {logging_mixin.py:115} INFO - Adquiriendo data para la fecha: 2023-12-12 2
+[2023-12-12 02:24:24,847] {logging_mixin.py:115} INFO - Success!
+[2023-12-12 02:24:24,857] {python.py:173} INFO - Done. Returned value was: None
+[2023-12-12 02:24:24,889] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=Entregable3_Chumbita, task_id=extraer_data, execution_date=20231212T022413, start_date=20231212T022421, end_date=20231212T022424
+[2023-12-12 02:24:24,959] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-12-12 02:24:25,054] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
