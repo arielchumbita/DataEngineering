@@ -1,0 +1,27 @@
+[2023-12-12 02:25:14,003] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: Entregable3_Chumbita.conexion_BD manual__2023-12-12T02:25:03.428441+00:00 [queued]>
+[2023-12-12 02:25:14,023] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: Entregable3_Chumbita.conexion_BD manual__2023-12-12T02:25:03.428441+00:00 [queued]>
+[2023-12-12 02:25:14,025] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-12 02:25:14,032] {taskinstance.py:1377} INFO - Starting attempt 1 of 6
+[2023-12-12 02:25:14,033] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-12 02:25:14,300] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): conexion_BD> on 2023-12-12 02:25:03.428441+00:00
+[2023-12-12 02:25:14,309] {standard_task_runner.py:52} INFO - Started process 283 to run task
+[2023-12-12 02:25:14,317] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'Entregable3_Chumbita', 'conexion_BD', 'manual__2023-12-12T02:25:03.428441+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/ETL_Entregable3_Chumbita.py', '--cfg-path', '/tmp/tmpwqexeu39', '--error-file', '/tmp/tmpcp7f10aw']
+[2023-12-12 02:25:14,320] {standard_task_runner.py:80} INFO - Job 12: Subtask conexion_BD
+[2023-12-12 02:25:14,632] {task_command.py:371} INFO - Running <TaskInstance: Entregable3_Chumbita.conexion_BD manual__2023-12-12T02:25:03.428441+00:00 [running]> on host 02fb1b542166
+[2023-12-12 02:25:14,804] {logging_mixin.py:115} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-12-12 02:25:14,968] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=ArielChumbita
+AIRFLOW_CTX_DAG_ID=Entregable3_Chumbita
+AIRFLOW_CTX_TASK_ID=conexion_BD
+AIRFLOW_CTX_EXECUTION_DATE=2023-12-12T02:25:03.428441+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-12-12T02:25:03.428441+00:00
+[2023-12-12 02:25:14,971] {logging_mixin.py:115} INFO - Conectandose a la BD en la fecha: 2023-12-12 2
+[2023-12-12 02:25:16,214] {logging_mixin.py:115} INFO - <connection object at 0x7fdf628c36e0; dsn: 'user=ariel_chumbita_coderhouse password=xxx dbname=data-engineer-database host=data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com port=5439', closed: 0>
+[2023-12-12 02:25:16,214] {logging_mixin.py:115} INFO - Connected to Redshift successfully!
+[2023-12-12 02:25:16,215] {python.py:173} INFO - Done. Returned value was: None
+[2023-12-12 02:25:16,240] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=Entregable3_Chumbita, task_id=conexion_BD, execution_date=20231212T022503, start_date=20231212T022514, end_date=20231212T022516
+[2023-12-12 02:25:16,304] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-12-12 02:25:16,384] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
