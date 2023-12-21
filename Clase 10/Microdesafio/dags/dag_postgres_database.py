@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 from email.policy import default
 from airflow import DAG
-from airflow.providers.postgres.operators.postgres import PostgresOperator
+from airflow.providers.postgres.operators.postgres import PostgresOperator #Para postgress
 
 default_args={
     'owner': 'DavidBU',
@@ -11,10 +11,10 @@ default_args={
 
 with DAG(
     default_args=default_args,
-    dag_id='dag_con_conexion_postgres',
+    dag_id='dag_con_conexion_postgres', #NOMBRE DAG
     description= 'Nuestro primer dag usando python Operator',
     start_date=datetime(2023,12,4),
-    schedule_interval='0 0 * * *'
+    schedule_interval='0 0 * * *' #Intervalo de ejecución exacto
     ) as dag:
     task1= PostgresOperator(
         task_id='crear_tabla_postgres',

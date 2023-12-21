@@ -13,7 +13,7 @@ with DAG(
     default_args= default_args,
     description="DAG de ejemplo para imprimir en logs",
     start_date=datetime(2023,12,4,2),# esto dice que debemos iniciar el 1-Ago-2022 y a un intervalo diario
-    schedule_interval='@daily' ) as dag:
+    schedule_interval='@daily' ) as dag: #No tienen intervalo exacto, es diario nomás no especifico hora.
     task1= BashOperator(task_id='primera_tarea',
     bash_command='echo Chile'
     )
