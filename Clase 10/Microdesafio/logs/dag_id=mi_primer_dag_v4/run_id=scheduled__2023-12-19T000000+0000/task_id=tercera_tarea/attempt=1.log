@@ -1,0 +1,28 @@
+[2023-12-21 03:24:13,319] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: mi_primer_dag_v4.tercera_tarea scheduled__2023-12-19T00:00:00+00:00 [queued]>
+[2023-12-21 03:24:13,444] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: mi_primer_dag_v4.tercera_tarea scheduled__2023-12-19T00:00:00+00:00 [queued]>
+[2023-12-21 03:24:13,469] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-21 03:24:13,473] {taskinstance.py:1377} INFO - Starting attempt 1 of 6
+[2023-12-21 03:24:13,489] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-21 03:24:13,792] {taskinstance.py:1397} INFO - Executing <Task(BashOperator): tercera_tarea> on 2023-12-19 00:00:00+00:00
+[2023-12-21 03:24:13,825] {standard_task_runner.py:52} INFO - Started process 452 to run task
+[2023-12-21 03:24:13,891] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'mi_primer_dag_v4', 'tercera_tarea', 'scheduled__2023-12-19T00:00:00+00:00', '--job-id', '194', '--raw', '--subdir', 'DAGS_FOLDER/primer_dag.py', '--cfg-path', '/tmp/tmpcvbv_le3', '--error-file', '/tmp/tmp3ihsie0y']
+[2023-12-21 03:24:13,905] {standard_task_runner.py:80} INFO - Job 194: Subtask tercera_tarea
+[2023-12-21 03:24:14,595] {task_command.py:371} INFO - Running <TaskInstance: mi_primer_dag_v4.tercera_tarea scheduled__2023-12-19T00:00:00+00:00 [running]> on host b0993ec57291
+[2023-12-21 03:24:15,603] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=DavidBU
+AIRFLOW_CTX_DAG_ID=mi_primer_dag_v4
+AIRFLOW_CTX_TASK_ID=tercera_tarea
+AIRFLOW_CTX_EXECUTION_DATE=2023-12-19T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-12-19T00:00:00+00:00
+[2023-12-21 03:24:15,624] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-12-21 03:24:15,641] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'echo Bustos Usta']
+[2023-12-21 03:24:15,724] {subprocess.py:85} INFO - Output:
+[2023-12-21 03:24:15,732] {subprocess.py:92} INFO - Bustos Usta
+[2023-12-21 03:24:15,746] {subprocess.py:96} INFO - Command exited with return code 0
+[2023-12-21 03:24:19,813] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=mi_primer_dag_v4, task_id=tercera_tarea, execution_date=20231219T000000, start_date=20231221T032413, end_date=20231221T032419
+[2023-12-21 03:24:20,029] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-12-21 03:24:20,290] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

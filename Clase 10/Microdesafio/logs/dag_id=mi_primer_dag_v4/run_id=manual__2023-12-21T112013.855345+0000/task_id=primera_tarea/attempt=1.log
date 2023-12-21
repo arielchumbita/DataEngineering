@@ -1,0 +1,28 @@
+[2023-12-21 11:20:21,877] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: mi_primer_dag_v4.primera_tarea manual__2023-12-21T11:20:13.855345+00:00 [queued]>
+[2023-12-21 11:20:21,924] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: mi_primer_dag_v4.primera_tarea manual__2023-12-21T11:20:13.855345+00:00 [queued]>
+[2023-12-21 11:20:21,925] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-21 11:20:21,926] {taskinstance.py:1377} INFO - Starting attempt 1 of 6
+[2023-12-21 11:20:21,927] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-21 11:20:21,990] {taskinstance.py:1397} INFO - Executing <Task(BashOperator): primera_tarea> on 2023-12-21 11:20:13.855345+00:00
+[2023-12-21 11:20:22,007] {standard_task_runner.py:52} INFO - Started process 2332 to run task
+[2023-12-21 11:20:22,008] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'mi_primer_dag_v4', 'primera_tarea', 'manual__2023-12-21T11:20:13.855345+00:00', '--job-id', '195', '--raw', '--subdir', 'DAGS_FOLDER/primer_dag.py', '--cfg-path', '/tmp/tmpru96itsc', '--error-file', '/tmp/tmphm69l1if']
+[2023-12-21 11:20:22,034] {standard_task_runner.py:80} INFO - Job 195: Subtask primera_tarea
+[2023-12-21 11:20:22,991] {task_command.py:371} INFO - Running <TaskInstance: mi_primer_dag_v4.primera_tarea manual__2023-12-21T11:20:13.855345+00:00 [running]> on host b0993ec57291
+[2023-12-21 11:20:23,808] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=DavidBU
+AIRFLOW_CTX_DAG_ID=mi_primer_dag_v4
+AIRFLOW_CTX_TASK_ID=primera_tarea
+AIRFLOW_CTX_EXECUTION_DATE=2023-12-21T11:20:13.855345+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-12-21T11:20:13.855345+00:00
+[2023-12-21 11:20:23,814] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-12-21 11:20:23,821] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'echo Chile']
+[2023-12-21 11:20:23,853] {subprocess.py:85} INFO - Output:
+[2023-12-21 11:20:24,046] {subprocess.py:92} INFO - Chile
+[2023-12-21 11:20:24,054] {subprocess.py:96} INFO - Command exited with return code 0
+[2023-12-21 11:20:33,162] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=mi_primer_dag_v4, task_id=primera_tarea, execution_date=20231221T112013, start_date=20231221T112021, end_date=20231221T112033
+[2023-12-21 11:20:33,227] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-12-21 11:20:33,319] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
