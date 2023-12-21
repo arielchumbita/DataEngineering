@@ -1,0 +1,31 @@
+[2023-12-21 03:21:37,478] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dag_con_conexion_postgres.crear_tabla_postgres scheduled__2023-12-12T00:00:00+00:00 [queued]>
+[2023-12-21 03:21:37,880] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dag_con_conexion_postgres.crear_tabla_postgres scheduled__2023-12-12T00:00:00+00:00 [queued]>
+[2023-12-21 03:21:37,891] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-21 03:21:37,902] {taskinstance.py:1377} INFO - Starting attempt 2 of 6
+[2023-12-21 03:21:37,906] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-21 03:21:38,326] {taskinstance.py:1397} INFO - Executing <Task(PostgresOperator): crear_tabla_postgres> on 2023-12-12 00:00:00+00:00
+[2023-12-21 03:21:38,398] {standard_task_runner.py:52} INFO - Started process 216 to run task
+[2023-12-21 03:21:38,817] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dag_con_conexion_postgres', 'crear_tabla_postgres', 'scheduled__2023-12-12T00:00:00+00:00', '--job-id', '163', '--raw', '--subdir', 'DAGS_FOLDER/dag_postgres_database.py', '--cfg-path', '/tmp/tmpsglzix58', '--error-file', '/tmp/tmpmsrvqv_e']
+[2023-12-21 03:21:38,880] {standard_task_runner.py:80} INFO - Job 163: Subtask crear_tabla_postgres
+[2023-12-21 03:21:51,412] {task_command.py:371} INFO - Running <TaskInstance: dag_con_conexion_postgres.crear_tabla_postgres scheduled__2023-12-12T00:00:00+00:00 [running]> on host b0993ec57291
+[2023-12-21 03:21:58,229] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=DavidBU
+AIRFLOW_CTX_DAG_ID=dag_con_conexion_postgres
+AIRFLOW_CTX_TASK_ID=crear_tabla_postgres
+AIRFLOW_CTX_EXECUTION_DATE=2023-12-12T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-12-12T00:00:00+00:00
+[2023-12-21 03:21:58,843] {base.py:68} INFO - Using connection ID 'postgres_localhost' for task execution.
+[2023-12-21 03:21:59,094] {dbapi.py:231} INFO - Running statement: 
+            create table if not exists fin_mundo(
+                dt date,
+                pais varchar(30)
+            )
+        , parameters: None
+[2023-12-21 03:21:59,112] {postgres.py:94} INFO - NOTICE:  la relación «fin_mundo» ya existe, ignorando
+
+[2023-12-21 03:23:10,480] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=dag_con_conexion_postgres, task_id=crear_tabla_postgres, execution_date=20231212T000000, start_date=20231221T032137, end_date=20231221T032310
+[2023-12-21 03:23:11,142] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-12-21 03:23:19,620] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
