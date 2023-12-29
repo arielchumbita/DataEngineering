@@ -1,0 +1,47 @@
+[2023-12-24 19:35:44,491] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: Bitcoin_ETL.cargar_data manual__2023-12-24T19:35:32.426569+00:00 [queued]>
+[2023-12-24 19:35:44,507] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: Bitcoin_ETL.cargar_data manual__2023-12-24T19:35:32.426569+00:00 [queued]>
+[2023-12-24 19:35:44,507] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-24 19:35:44,508] {taskinstance.py:1377} INFO - Starting attempt 1 of 6
+[2023-12-24 19:35:44,509] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-24 19:35:44,533] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): cargar_data> on 2023-12-24 19:35:32.426569+00:00
+[2023-12-24 19:35:44,542] {standard_task_runner.py:52} INFO - Started process 549 to run task
+[2023-12-24 19:35:44,546] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'Bitcoin_ETL', 'cargar_data', 'manual__2023-12-24T19:35:32.426569+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/ETL_Bitcoin.py', '--cfg-path', '/tmp/tmpvbli3p5x', '--error-file', '/tmp/tmpqx85r907']
+[2023-12-24 19:35:44,550] {standard_task_runner.py:80} INFO - Job 10: Subtask cargar_data
+[2023-12-24 19:35:44,679] {task_command.py:371} INFO - Running <TaskInstance: Bitcoin_ETL.cargar_data manual__2023-12-24T19:35:32.426569+00:00 [running]> on host 3331eab26945
+[2023-12-24 19:35:44,774] {logging_mixin.py:115} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-12-24 19:35:44,856] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=ArielChumbita
+AIRFLOW_CTX_DAG_ID=Bitcoin_ETL
+AIRFLOW_CTX_TASK_ID=cargar_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-12-24T19:35:32.426569+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-12-24T19:35:32.426569+00:00
+[2023-12-24 19:35:44,860] {logging_mixin.py:115} INFO - Cargando la data para la fecha: 2023-12-24 19
+[2023-12-24 19:35:44,893] {logging_mixin.py:115} INFO - (3, 18)
+[2023-12-24 19:35:44,954] {logging_mixin.py:115} INFO -    mining_algo  ...                            Date
+0      SHA-256  ...  2023-12-24T19:27:22.060801782Z
+1  mining_algo  ...                            Date
+2      SHA-256  ...  2023-12-24T19:35:35.490783954Z
+
+[3 rows x 18 columns]
+[2023-12-24 19:35:46,702] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/ETL_Bitcoin.py", line 119, in cargar_data
+    port='5439')
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com" (52.44.43.227), port 5439 failed: FATAL:  password authentication failed for user "ariel_chumbita_coderhouse"
+connection to server at "data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com" (52.44.43.227), port 5439 failed: FATAL:  password authentication failed for user "ariel_chumbita_coderhouse"
+
+[2023-12-24 19:35:46,734] {taskinstance.py:1420} INFO - Marking task as UP_FOR_RETRY. dag_id=Bitcoin_ETL, task_id=cargar_data, execution_date=20231224T193532, start_date=20231224T193544, end_date=20231224T193546
+[2023-12-24 19:35:46,759] {standard_task_runner.py:97} ERROR - Failed to execute job 10 for task cargar_data (connection to server at "data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com" (52.44.43.227), port 5439 failed: FATAL:  password authentication failed for user "ariel_chumbita_coderhouse"
+connection to server at "data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com" (52.44.43.227), port 5439 failed: FATAL:  password authentication failed for user "ariel_chumbita_coderhouse"
+; 549)
+[2023-12-24 19:35:46,778] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-12-24 19:35:46,842] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

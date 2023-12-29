@@ -1,0 +1,28 @@
+[2023-12-24 19:35:40,489] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: Bitcoin_ETL.conexion_BD manual__2023-12-24T19:35:32.426569+00:00 [queued]>
+[2023-12-24 19:35:40,514] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: Bitcoin_ETL.conexion_BD manual__2023-12-24T19:35:32.426569+00:00 [queued]>
+[2023-12-24 19:35:40,515] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-24 19:35:40,516] {taskinstance.py:1377} INFO - Starting attempt 1 of 6
+[2023-12-24 19:35:40,518] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-24 19:35:40,550] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): conexion_BD> on 2023-12-24 19:35:32.426569+00:00
+[2023-12-24 19:35:40,567] {standard_task_runner.py:52} INFO - Started process 544 to run task
+[2023-12-24 19:35:40,584] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'Bitcoin_ETL', 'conexion_BD', 'manual__2023-12-24T19:35:32.426569+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/ETL_Bitcoin.py', '--cfg-path', '/tmp/tmp77fsbo6t', '--error-file', '/tmp/tmpie93s982']
+[2023-12-24 19:35:40,594] {standard_task_runner.py:80} INFO - Job 9: Subtask conexion_BD
+[2023-12-24 19:35:40,778] {task_command.py:371} INFO - Running <TaskInstance: Bitcoin_ETL.conexion_BD manual__2023-12-24T19:35:32.426569+00:00 [running]> on host 3331eab26945
+[2023-12-24 19:35:40,898] {logging_mixin.py:115} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-12-24 19:35:41,069] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=ArielChumbita
+AIRFLOW_CTX_DAG_ID=Bitcoin_ETL
+AIRFLOW_CTX_TASK_ID=conexion_BD
+AIRFLOW_CTX_EXECUTION_DATE=2023-12-24T19:35:32.426569+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-12-24T19:35:32.426569+00:00
+[2023-12-24 19:35:41,071] {logging_mixin.py:115} INFO - Conectandose a la BD en la fecha: 2023-12-24 19
+[2023-12-24 19:35:42,755] {logging_mixin.py:115} INFO - Unable to connect to Redshift.
+[2023-12-24 19:35:42,757] {logging_mixin.py:115} INFO - connection to server at "data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com" (52.44.43.227), port 5439 failed: FATAL:  password authentication failed for user "ariel_chumbita_coderhouse"
+connection to server at "data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com" (52.44.43.227), port 5439 failed: FATAL:  password authentication failed for user "ariel_chumbita_coderhouse"
+[2023-12-24 19:35:42,758] {python.py:173} INFO - Done. Returned value was: None
+[2023-12-24 19:35:42,779] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=Bitcoin_ETL, task_id=conexion_BD, execution_date=20231224T193532, start_date=20231224T193540, end_date=20231224T193542
+[2023-12-24 19:35:42,825] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-12-24 19:35:42,878] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
