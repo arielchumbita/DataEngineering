@@ -1,0 +1,24 @@
+[2023-12-29 05:11:25,335] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: ProyectoFinal_Mail_Chumbita.dag_envio scheduled__2023-12-28T00:00:00+00:00 [queued]>
+[2023-12-29 05:11:25,416] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: ProyectoFinal_Mail_Chumbita.dag_envio scheduled__2023-12-28T00:00:00+00:00 [queued]>
+[2023-12-29 05:11:25,423] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-29 05:11:25,425] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2023-12-29 05:11:25,427] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-29 05:11:25,574] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): dag_envio> on 2023-12-28 00:00:00+00:00
+[2023-12-29 05:11:25,589] {standard_task_runner.py:52} INFO - Started process 397 to run task
+[2023-12-29 05:11:25,742] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'ProyectoFinal_Mail_Chumbita', 'dag_envio', 'scheduled__2023-12-28T00:00:00+00:00', '--job-id', '2', '--raw', '--subdir', 'DAGS_FOLDER/ProyectoFinal_Mail_Chumbita.py', '--cfg-path', '/tmp/tmpcpcv60ez', '--error-file', '/tmp/tmpswbjt6hv']
+[2023-12-29 05:11:25,837] {standard_task_runner.py:80} INFO - Job 2: Subtask dag_envio
+[2023-12-29 05:11:27,471] {task_command.py:371} INFO - Running <TaskInstance: ProyectoFinal_Mail_Chumbita.dag_envio scheduled__2023-12-28T00:00:00+00:00 [running]> on host 442d8a143aec
+[2023-12-29 05:11:28,559] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=ArielChumbita
+AIRFLOW_CTX_DAG_ID=ProyectoFinal_Mail_Chumbita
+AIRFLOW_CTX_TASK_ID=dag_envio
+AIRFLOW_CTX_EXECUTION_DATE=2023-12-28T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-12-28T00:00:00+00:00
+[2023-12-29 05:11:36,331] {logging_mixin.py:115} INFO - Exito
+[2023-12-29 05:11:36,339] {python.py:173} INFO - Done. Returned value was: None
+[2023-12-29 05:11:36,410] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=ProyectoFinal_Mail_Chumbita, task_id=dag_envio, execution_date=20231228T000000, start_date=20231229T051125, end_date=20231229T051136
+[2023-12-29 05:11:36,600] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-12-29 05:11:36,741] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
