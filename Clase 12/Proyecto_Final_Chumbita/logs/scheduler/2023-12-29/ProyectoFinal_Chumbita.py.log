@@ -692,3 +692,31 @@
 [2023-12-29 05:29:05,199] {logging_mixin.py:115} INFO - [2023-12-29 05:29:05,199] {dag.py:2420} INFO - Sync 1 DAGs
 [2023-12-29 05:29:05,255] {logging_mixin.py:115} INFO - [2023-12-29 05:29:05,254] {dag.py:2972} INFO - Setting next_dagrun for ProyectoFinal_Chumbita to 2023-12-29T00:00:00+00:00, run_after=2023-12-30T00:00:00+00:00
 [2023-12-29 05:29:05,291] {processor.py:161} INFO - Processing /opt/airflow/dags/ProyectoFinal_Chumbita.py took 1.135 seconds
+[2023-12-29 05:29:15,800] {processor.py:153} INFO - Started process (PID=1434) to work on /opt/airflow/dags/ProyectoFinal_Chumbita.py
+[2023-12-29 05:29:15,803] {processor.py:641} INFO - Processing file /opt/airflow/dags/ProyectoFinal_Chumbita.py for tasks to queue
+[2023-12-29 05:29:15,805] {logging_mixin.py:115} INFO - [2023-12-29 05:29:15,804] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ProyectoFinal_Chumbita.py
+[2023-12-29 05:29:16,941] {processor.py:651} INFO - DAG(s) dict_keys(['ProyectoFinal_Chumbita']) retrieved from /opt/airflow/dags/ProyectoFinal_Chumbita.py
+[2023-12-29 05:29:16,986] {logging_mixin.py:115} INFO - [2023-12-29 05:29:16,985] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-29 05:29:17,029] {logging_mixin.py:115} INFO - [2023-12-29 05:29:17,029] {dag.py:2972} INFO - Setting next_dagrun for ProyectoFinal_Chumbita to 2023-12-29T00:00:00+00:00, run_after=2023-12-30T00:00:00+00:00
+[2023-12-29 05:29:17,050] {processor.py:161} INFO - Processing /opt/airflow/dags/ProyectoFinal_Chumbita.py took 1.264 seconds
+[2023-12-29 05:29:27,195] {processor.py:153} INFO - Started process (PID=1445) to work on /opt/airflow/dags/ProyectoFinal_Chumbita.py
+[2023-12-29 05:29:27,196] {processor.py:641} INFO - Processing file /opt/airflow/dags/ProyectoFinal_Chumbita.py for tasks to queue
+[2023-12-29 05:29:27,197] {logging_mixin.py:115} INFO - [2023-12-29 05:29:27,197] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ProyectoFinal_Chumbita.py
+[2023-12-29 05:29:27,816] {processor.py:651} INFO - DAG(s) dict_keys(['ProyectoFinal_Chumbita']) retrieved from /opt/airflow/dags/ProyectoFinal_Chumbita.py
+[2023-12-29 05:29:27,855] {logging_mixin.py:115} INFO - [2023-12-29 05:29:27,855] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-29 05:29:27,931] {logging_mixin.py:115} INFO - [2023-12-29 05:29:27,931] {dag.py:2972} INFO - Setting next_dagrun for ProyectoFinal_Chumbita to 2023-12-29T00:00:00+00:00, run_after=2023-12-30T00:00:00+00:00
+[2023-12-29 05:29:27,966] {processor.py:161} INFO - Processing /opt/airflow/dags/ProyectoFinal_Chumbita.py took 0.778 seconds
+[2023-12-29 05:29:38,292] {processor.py:153} INFO - Started process (PID=1456) to work on /opt/airflow/dags/ProyectoFinal_Chumbita.py
+[2023-12-29 05:29:38,293] {processor.py:641} INFO - Processing file /opt/airflow/dags/ProyectoFinal_Chumbita.py for tasks to queue
+[2023-12-29 05:29:38,294] {logging_mixin.py:115} INFO - [2023-12-29 05:29:38,294] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ProyectoFinal_Chumbita.py
+[2023-12-29 05:29:39,314] {processor.py:651} INFO - DAG(s) dict_keys(['ProyectoFinal_Chumbita']) retrieved from /opt/airflow/dags/ProyectoFinal_Chumbita.py
+[2023-12-29 05:29:39,386] {logging_mixin.py:115} INFO - [2023-12-29 05:29:39,385] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-29 05:29:39,465] {logging_mixin.py:115} INFO - [2023-12-29 05:29:39,464] {dag.py:2972} INFO - Setting next_dagrun for ProyectoFinal_Chumbita to 2023-12-29T00:00:00+00:00, run_after=2023-12-30T00:00:00+00:00
+[2023-12-29 05:29:39,502] {processor.py:161} INFO - Processing /opt/airflow/dags/ProyectoFinal_Chumbita.py took 1.218 seconds
+[2023-12-29 05:29:49,657] {processor.py:153} INFO - Started process (PID=1467) to work on /opt/airflow/dags/ProyectoFinal_Chumbita.py
+[2023-12-29 05:29:49,659] {processor.py:641} INFO - Processing file /opt/airflow/dags/ProyectoFinal_Chumbita.py for tasks to queue
+[2023-12-29 05:29:49,660] {logging_mixin.py:115} INFO - [2023-12-29 05:29:49,660] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ProyectoFinal_Chumbita.py
+[2023-12-29 05:29:50,321] {processor.py:651} INFO - DAG(s) dict_keys(['ProyectoFinal_Chumbita']) retrieved from /opt/airflow/dags/ProyectoFinal_Chumbita.py
+[2023-12-29 05:29:50,363] {logging_mixin.py:115} INFO - [2023-12-29 05:29:50,363] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-29 05:29:50,394] {logging_mixin.py:115} INFO - [2023-12-29 05:29:50,394] {dag.py:2972} INFO - Setting next_dagrun for ProyectoFinal_Chumbita to 2023-12-29T00:00:00+00:00, run_after=2023-12-30T00:00:00+00:00
+[2023-12-29 05:29:50,415] {processor.py:161} INFO - Processing /opt/airflow/dags/ProyectoFinal_Chumbita.py took 0.764 seconds

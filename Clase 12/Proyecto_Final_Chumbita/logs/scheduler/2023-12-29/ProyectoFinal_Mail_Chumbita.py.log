@@ -953,3 +953,24 @@ Pais Mexico (MX), Fecha fin mundo estimada: 2071
 [2023-12-29 05:29:13,581] {logging_mixin.py:115} INFO - [2023-12-29 05:29:13,581] {dag.py:2420} INFO - Sync 1 DAGs
 [2023-12-29 05:29:13,644] {logging_mixin.py:115} INFO - [2023-12-29 05:29:13,644] {dag.py:2972} INFO - Setting next_dagrun for ProyectoFinal_Mail_Chumbita to 2023-12-29T00:00:00+00:00, run_after=2023-12-30T00:00:00+00:00
 [2023-12-29 05:29:13,672] {processor.py:161} INFO - Processing /opt/airflow/dags/ProyectoFinal_Mail_Chumbita.py took 0.328 seconds
+[2023-12-29 05:29:23,968] {processor.py:153} INFO - Started process (PID=1440) to work on /opt/airflow/dags/ProyectoFinal_Mail_Chumbita.py
+[2023-12-29 05:29:23,969] {processor.py:641} INFO - Processing file /opt/airflow/dags/ProyectoFinal_Mail_Chumbita.py for tasks to queue
+[2023-12-29 05:29:23,971] {logging_mixin.py:115} INFO - [2023-12-29 05:29:23,970] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ProyectoFinal_Mail_Chumbita.py
+[2023-12-29 05:29:24,011] {processor.py:651} INFO - DAG(s) dict_keys(['ProyectoFinal_Mail_Chumbita']) retrieved from /opt/airflow/dags/ProyectoFinal_Mail_Chumbita.py
+[2023-12-29 05:29:24,051] {logging_mixin.py:115} INFO - [2023-12-29 05:29:24,051] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-29 05:29:24,091] {logging_mixin.py:115} INFO - [2023-12-29 05:29:24,090] {dag.py:2972} INFO - Setting next_dagrun for ProyectoFinal_Mail_Chumbita to 2023-12-29T00:00:00+00:00, run_after=2023-12-30T00:00:00+00:00
+[2023-12-29 05:29:24,113] {processor.py:161} INFO - Processing /opt/airflow/dags/ProyectoFinal_Mail_Chumbita.py took 0.158 seconds
+[2023-12-29 05:29:34,259] {processor.py:153} INFO - Started process (PID=1451) to work on /opt/airflow/dags/ProyectoFinal_Mail_Chumbita.py
+[2023-12-29 05:29:34,261] {processor.py:641} INFO - Processing file /opt/airflow/dags/ProyectoFinal_Mail_Chumbita.py for tasks to queue
+[2023-12-29 05:29:34,262] {logging_mixin.py:115} INFO - [2023-12-29 05:29:34,262] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ProyectoFinal_Mail_Chumbita.py
+[2023-12-29 05:29:34,310] {processor.py:651} INFO - DAG(s) dict_keys(['ProyectoFinal_Mail_Chumbita']) retrieved from /opt/airflow/dags/ProyectoFinal_Mail_Chumbita.py
+[2023-12-29 05:29:34,350] {logging_mixin.py:115} INFO - [2023-12-29 05:29:34,350] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-29 05:29:34,383] {logging_mixin.py:115} INFO - [2023-12-29 05:29:34,383] {dag.py:2972} INFO - Setting next_dagrun for ProyectoFinal_Mail_Chumbita to 2023-12-29T00:00:00+00:00, run_after=2023-12-30T00:00:00+00:00
+[2023-12-29 05:29:34,403] {processor.py:161} INFO - Processing /opt/airflow/dags/ProyectoFinal_Mail_Chumbita.py took 0.154 seconds
+[2023-12-29 05:29:44,532] {processor.py:153} INFO - Started process (PID=1462) to work on /opt/airflow/dags/ProyectoFinal_Mail_Chumbita.py
+[2023-12-29 05:29:44,533] {processor.py:641} INFO - Processing file /opt/airflow/dags/ProyectoFinal_Mail_Chumbita.py for tasks to queue
+[2023-12-29 05:29:44,537] {logging_mixin.py:115} INFO - [2023-12-29 05:29:44,537] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ProyectoFinal_Mail_Chumbita.py
+[2023-12-29 05:29:44,575] {processor.py:651} INFO - DAG(s) dict_keys(['ProyectoFinal_Mail_Chumbita']) retrieved from /opt/airflow/dags/ProyectoFinal_Mail_Chumbita.py
+[2023-12-29 05:29:44,612] {logging_mixin.py:115} INFO - [2023-12-29 05:29:44,612] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-29 05:29:44,668] {logging_mixin.py:115} INFO - [2023-12-29 05:29:44,668] {dag.py:2972} INFO - Setting next_dagrun for ProyectoFinal_Mail_Chumbita to 2023-12-29T00:00:00+00:00, run_after=2023-12-30T00:00:00+00:00
+[2023-12-29 05:29:44,693] {processor.py:161} INFO - Processing /opt/airflow/dags/ProyectoFinal_Mail_Chumbita.py took 0.171 seconds
