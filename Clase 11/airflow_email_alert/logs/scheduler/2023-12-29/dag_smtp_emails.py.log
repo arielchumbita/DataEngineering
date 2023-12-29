@@ -1860,3 +1860,752 @@
 [2023-12-29 02:40:23,535] {logging_mixin.py:109} INFO - [2023-12-29 02:40:23,535] {dag.py:2396} INFO - Sync 1 DAGs
 [2023-12-29 02:40:23,824] {logging_mixin.py:109} INFO - [2023-12-29 02:40:23,823] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
 [2023-12-29 02:40:24,061] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 4.060 seconds
+[2023-12-29 03:36:32,192] {processor.py:163} INFO - Started process (PID=73) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:36:32,228] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:36:32,230] {logging_mixin.py:109} INFO - [2023-12-29 03:36:32,230] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:36:32,621] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:36:32,701] {logging_mixin.py:109} INFO - [2023-12-29 03:36:32,701] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:36:32,939] {logging_mixin.py:109} INFO - [2023-12-29 03:36:32,939] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:36:33,113] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.930 seconds
+[2023-12-29 03:37:04,553] {processor.py:163} INFO - Started process (PID=125) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:37:04,569] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:37:04,695] {logging_mixin.py:109} INFO - [2023-12-29 03:37:04,582] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:37:05,187] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:37:05,294] {logging_mixin.py:109} INFO - [2023-12-29 03:37:05,294] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:37:05,548] {logging_mixin.py:109} INFO - [2023-12-29 03:37:05,548] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:37:05,711] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 1.223 seconds
+[2023-12-29 03:38:07,830] {processor.py:163} INFO - Started process (PID=176) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:38:07,846] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:38:07,852] {logging_mixin.py:109} INFO - [2023-12-29 03:38:07,852] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:38:08,686] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:38:08,865] {logging_mixin.py:109} INFO - [2023-12-29 03:38:08,865] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:38:11,181] {logging_mixin.py:109} INFO - [2023-12-29 03:38:11,181] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:38:12,470] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 4.649 seconds
+[2023-12-29 03:38:43,148] {processor.py:163} INFO - Started process (PID=231) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:38:43,151] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:38:43,152] {logging_mixin.py:109} INFO - [2023-12-29 03:38:43,152] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:38:43,245] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:38:43,260] {logging_mixin.py:109} INFO - [2023-12-29 03:38:43,260] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:38:43,293] {logging_mixin.py:109} INFO - [2023-12-29 03:38:43,292] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:38:43,314] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.172 seconds
+[2023-12-29 03:39:13,993] {processor.py:163} INFO - Started process (PID=287) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:39:13,995] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:39:13,996] {logging_mixin.py:109} INFO - [2023-12-29 03:39:13,996] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:39:14,061] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:39:14,079] {logging_mixin.py:109} INFO - [2023-12-29 03:39:14,079] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:39:14,106] {logging_mixin.py:109} INFO - [2023-12-29 03:39:14,106] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:39:14,130] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.141 seconds
+[2023-12-29 03:39:44,426] {processor.py:163} INFO - Started process (PID=343) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:39:44,428] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:39:44,430] {logging_mixin.py:109} INFO - [2023-12-29 03:39:44,430] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:39:44,496] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:39:44,512] {logging_mixin.py:109} INFO - [2023-12-29 03:39:44,512] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:39:44,538] {logging_mixin.py:109} INFO - [2023-12-29 03:39:44,537] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:39:44,554] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.134 seconds
+[2023-12-29 03:40:14,626] {processor.py:163} INFO - Started process (PID=400) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:40:14,628] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:40:14,630] {logging_mixin.py:109} INFO - [2023-12-29 03:40:14,629] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:40:14,720] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:40:14,746] {logging_mixin.py:109} INFO - [2023-12-29 03:40:14,746] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:40:14,784] {logging_mixin.py:109} INFO - [2023-12-29 03:40:14,784] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:40:14,804] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.184 seconds
+[2023-12-29 03:40:45,012] {processor.py:163} INFO - Started process (PID=455) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:40:45,014] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:40:45,016] {logging_mixin.py:109} INFO - [2023-12-29 03:40:45,016] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:40:45,091] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:40:45,115] {logging_mixin.py:109} INFO - [2023-12-29 03:40:45,115] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:40:45,158] {logging_mixin.py:109} INFO - [2023-12-29 03:40:45,157] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:40:45,197] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.192 seconds
+[2023-12-29 03:41:15,475] {processor.py:163} INFO - Started process (PID=502) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:41:15,477] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:41:15,479] {logging_mixin.py:109} INFO - [2023-12-29 03:41:15,479] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:41:15,547] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:41:15,561] {logging_mixin.py:109} INFO - [2023-12-29 03:41:15,561] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:41:15,587] {logging_mixin.py:109} INFO - [2023-12-29 03:41:15,587] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:41:15,605] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.135 seconds
+[2023-12-29 03:41:45,676] {processor.py:163} INFO - Started process (PID=558) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:41:45,679] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:41:45,680] {logging_mixin.py:109} INFO - [2023-12-29 03:41:45,680] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:41:45,752] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:41:45,768] {logging_mixin.py:109} INFO - [2023-12-29 03:41:45,768] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:41:45,798] {logging_mixin.py:109} INFO - [2023-12-29 03:41:45,798] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:41:45,816] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.144 seconds
+[2023-12-29 03:42:16,098] {processor.py:163} INFO - Started process (PID=614) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:42:16,100] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:42:16,102] {logging_mixin.py:109} INFO - [2023-12-29 03:42:16,102] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:42:16,176] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:42:16,193] {logging_mixin.py:109} INFO - [2023-12-29 03:42:16,192] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:42:16,226] {logging_mixin.py:109} INFO - [2023-12-29 03:42:16,226] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:42:16,249] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.157 seconds
+[2023-12-29 03:42:46,631] {processor.py:163} INFO - Started process (PID=680) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:42:46,633] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:42:46,634] {logging_mixin.py:109} INFO - [2023-12-29 03:42:46,634] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:42:46,697] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:42:46,715] {logging_mixin.py:109} INFO - [2023-12-29 03:42:46,715] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:42:46,748] {logging_mixin.py:109} INFO - [2023-12-29 03:42:46,748] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:42:46,764] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.138 seconds
+[2023-12-29 03:43:16,936] {processor.py:163} INFO - Started process (PID=736) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:43:16,938] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:43:16,941] {logging_mixin.py:109} INFO - [2023-12-29 03:43:16,940] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:43:17,016] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:43:17,034] {logging_mixin.py:109} INFO - [2023-12-29 03:43:17,033] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:43:17,076] {logging_mixin.py:109} INFO - [2023-12-29 03:43:17,076] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:43:17,094] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.165 seconds
+[2023-12-29 03:43:47,922] {processor.py:163} INFO - Started process (PID=792) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:43:47,925] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:43:47,927] {logging_mixin.py:109} INFO - [2023-12-29 03:43:47,927] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:43:48,032] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:43:48,055] {logging_mixin.py:109} INFO - [2023-12-29 03:43:48,055] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:43:48,105] {logging_mixin.py:109} INFO - [2023-12-29 03:43:48,104] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:43:48,138] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.224 seconds
+[2023-12-29 03:44:18,411] {processor.py:163} INFO - Started process (PID=848) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:44:18,417] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:44:18,421] {logging_mixin.py:109} INFO - [2023-12-29 03:44:18,421] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:44:18,512] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:44:18,533] {logging_mixin.py:109} INFO - [2023-12-29 03:44:18,533] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:44:18,569] {logging_mixin.py:109} INFO - [2023-12-29 03:44:18,569] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:44:18,603] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.199 seconds
+[2023-12-29 03:44:49,026] {processor.py:163} INFO - Started process (PID=903) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:44:49,029] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:44:49,030] {logging_mixin.py:109} INFO - [2023-12-29 03:44:49,030] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:44:49,161] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:44:49,182] {logging_mixin.py:109} INFO - [2023-12-29 03:44:49,181] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:44:49,218] {logging_mixin.py:109} INFO - [2023-12-29 03:44:49,218] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:44:49,238] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.222 seconds
+[2023-12-29 03:45:19,904] {processor.py:163} INFO - Started process (PID=958) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:45:19,907] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:45:19,908] {logging_mixin.py:109} INFO - [2023-12-29 03:45:19,908] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:45:19,981] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:45:20,005] {logging_mixin.py:109} INFO - [2023-12-29 03:45:20,005] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:45:20,069] {logging_mixin.py:109} INFO - [2023-12-29 03:45:20,069] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:45:20,091] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.194 seconds
+[2023-12-29 03:45:50,952] {processor.py:163} INFO - Started process (PID=1013) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:45:50,961] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:45:50,963] {logging_mixin.py:109} INFO - [2023-12-29 03:45:50,963] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:45:51,125] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:45:51,154] {logging_mixin.py:109} INFO - [2023-12-29 03:45:51,154] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:45:51,199] {logging_mixin.py:109} INFO - [2023-12-29 03:45:51,199] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:45:51,227] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.284 seconds
+[2023-12-29 03:46:21,403] {processor.py:163} INFO - Started process (PID=1060) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:46:21,405] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:46:21,407] {logging_mixin.py:109} INFO - [2023-12-29 03:46:21,406] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:46:21,483] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:46:21,500] {logging_mixin.py:109} INFO - [2023-12-29 03:46:21,500] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:46:21,531] {logging_mixin.py:109} INFO - [2023-12-29 03:46:21,531] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:46:21,550] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.152 seconds
+[2023-12-29 03:46:52,154] {processor.py:163} INFO - Started process (PID=1116) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:46:52,157] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:46:52,171] {logging_mixin.py:109} INFO - [2023-12-29 03:46:52,171] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:46:52,538] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:46:52,594] {logging_mixin.py:109} INFO - [2023-12-29 03:46:52,594] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:46:52,717] {logging_mixin.py:109} INFO - [2023-12-29 03:46:52,717] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:46:52,759] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.695 seconds
+[2023-12-29 03:47:22,855] {processor.py:163} INFO - Started process (PID=1171) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:47:22,858] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:47:22,864] {logging_mixin.py:109} INFO - [2023-12-29 03:47:22,864] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:47:23,046] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:47:23,069] {logging_mixin.py:109} INFO - [2023-12-29 03:47:23,069] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:47:23,125] {logging_mixin.py:109} INFO - [2023-12-29 03:47:23,125] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:47:23,230] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.397 seconds
+[2023-12-29 03:47:53,415] {processor.py:163} INFO - Started process (PID=1219) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:47:53,431] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:47:53,454] {logging_mixin.py:109} INFO - [2023-12-29 03:47:53,453] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:47:53,673] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:47:53,713] {logging_mixin.py:109} INFO - [2023-12-29 03:47:53,713] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:47:53,768] {logging_mixin.py:109} INFO - [2023-12-29 03:47:53,768] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:47:53,796] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.393 seconds
+[2023-12-29 03:48:24,017] {processor.py:163} INFO - Started process (PID=1276) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:48:24,020] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:48:24,022] {logging_mixin.py:109} INFO - [2023-12-29 03:48:24,022] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:48:24,182] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:48:24,220] {logging_mixin.py:109} INFO - [2023-12-29 03:48:24,220] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:48:24,281] {logging_mixin.py:109} INFO - [2023-12-29 03:48:24,280] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:48:24,313] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.303 seconds
+[2023-12-29 03:48:54,668] {processor.py:163} INFO - Started process (PID=1322) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:48:54,673] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:48:54,681] {logging_mixin.py:109} INFO - [2023-12-29 03:48:54,680] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:48:55,002] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:48:55,160] {logging_mixin.py:109} INFO - [2023-12-29 03:48:55,159] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:48:55,316] {logging_mixin.py:109} INFO - [2023-12-29 03:48:55,315] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:48:55,341] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.682 seconds
+[2023-12-29 03:49:25,831] {processor.py:163} INFO - Started process (PID=1377) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:49:25,846] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:49:25,849] {logging_mixin.py:109} INFO - [2023-12-29 03:49:25,849] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:49:26,200] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:49:26,287] {logging_mixin.py:109} INFO - [2023-12-29 03:49:26,287] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:49:26,482] {logging_mixin.py:109} INFO - [2023-12-29 03:49:26,482] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:49:26,537] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.725 seconds
+[2023-12-29 03:49:57,321] {processor.py:163} INFO - Started process (PID=1434) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:49:57,338] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:49:57,354] {logging_mixin.py:109} INFO - [2023-12-29 03:49:57,354] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:49:57,713] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:49:57,796] {logging_mixin.py:109} INFO - [2023-12-29 03:49:57,795] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:49:57,966] {logging_mixin.py:109} INFO - [2023-12-29 03:49:57,966] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:49:58,080] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.780 seconds
+[2023-12-29 03:50:34,036] {processor.py:163} INFO - Started process (PID=1480) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:50:34,114] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:50:34,131] {logging_mixin.py:109} INFO - [2023-12-29 03:50:34,130] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:50:34,509] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:50:34,598] {logging_mixin.py:109} INFO - [2023-12-29 03:50:34,598] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:50:34,835] {logging_mixin.py:109} INFO - [2023-12-29 03:50:34,834] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:50:35,003] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.977 seconds
+[2023-12-29 03:51:15,774] {processor.py:163} INFO - Started process (PID=1549) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:51:15,804] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:51:15,818] {logging_mixin.py:109} INFO - [2023-12-29 03:51:15,817] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:51:16,187] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:51:16,268] {logging_mixin.py:109} INFO - [2023-12-29 03:51:16,268] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:51:16,413] {logging_mixin.py:109} INFO - [2023-12-29 03:51:16,413] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:51:16,518] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.768 seconds
+[2023-12-29 03:51:50,051] {processor.py:163} INFO - Started process (PID=1595) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:51:50,066] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:51:50,077] {logging_mixin.py:109} INFO - [2023-12-29 03:51:50,076] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:51:50,635] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:51:50,776] {logging_mixin.py:109} INFO - [2023-12-29 03:51:50,773] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:51:50,944] {logging_mixin.py:109} INFO - [2023-12-29 03:51:50,943] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:51:51,020] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.992 seconds
+[2023-12-29 03:52:22,984] {processor.py:163} INFO - Started process (PID=1651) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:52:23,022] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:52:23,029] {logging_mixin.py:109} INFO - [2023-12-29 03:52:23,028] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:52:23,361] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:52:23,388] {logging_mixin.py:109} INFO - [2023-12-29 03:52:23,388] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:52:23,477] {logging_mixin.py:109} INFO - [2023-12-29 03:52:23,476] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:52:23,566] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.596 seconds
+[2023-12-29 03:52:54,546] {processor.py:163} INFO - Started process (PID=1696) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:52:54,571] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:52:54,632] {logging_mixin.py:109} INFO - [2023-12-29 03:52:54,632] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:52:55,321] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:52:55,533] {logging_mixin.py:109} INFO - [2023-12-29 03:52:55,532] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:52:55,673] {logging_mixin.py:109} INFO - [2023-12-29 03:52:55,673] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:52:55,788] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 1.249 seconds
+[2023-12-29 03:53:27,519] {processor.py:163} INFO - Started process (PID=1752) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:53:27,525] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:53:27,544] {logging_mixin.py:109} INFO - [2023-12-29 03:53:27,543] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:53:27,804] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:53:27,829] {logging_mixin.py:109} INFO - [2023-12-29 03:53:27,829] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:53:27,871] {logging_mixin.py:109} INFO - [2023-12-29 03:53:27,871] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:53:27,901] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.397 seconds
+[2023-12-29 03:53:58,051] {processor.py:163} INFO - Started process (PID=1805) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:53:58,070] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:53:58,079] {logging_mixin.py:109} INFO - [2023-12-29 03:53:58,079] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:53:58,279] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:53:58,305] {logging_mixin.py:109} INFO - [2023-12-29 03:53:58,305] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:53:58,375] {logging_mixin.py:109} INFO - [2023-12-29 03:53:58,374] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:53:58,422] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.399 seconds
+[2023-12-29 03:54:36,778] {processor.py:163} INFO - Started process (PID=1855) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:54:36,789] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:54:36,797] {logging_mixin.py:109} INFO - [2023-12-29 03:54:36,796] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:54:37,260] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:54:37,375] {logging_mixin.py:109} INFO - [2023-12-29 03:54:37,375] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:54:37,593] {logging_mixin.py:109} INFO - [2023-12-29 03:54:37,593] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:54:37,819] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 1.065 seconds
+[2023-12-29 03:55:18,210] {processor.py:163} INFO - Started process (PID=1909) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:55:18,219] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:55:18,227] {logging_mixin.py:109} INFO - [2023-12-29 03:55:18,226] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:55:18,693] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:55:18,826] {logging_mixin.py:109} INFO - [2023-12-29 03:55:18,825] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:55:19,092] {logging_mixin.py:109} INFO - [2023-12-29 03:55:19,092] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:55:19,255] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 1.134 seconds
+[2023-12-29 03:55:49,891] {processor.py:163} INFO - Started process (PID=1968) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:55:49,903] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:55:49,908] {logging_mixin.py:109} INFO - [2023-12-29 03:55:49,907] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:55:50,189] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:55:50,254] {logging_mixin.py:109} INFO - [2023-12-29 03:55:50,254] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:55:50,340] {logging_mixin.py:109} INFO - [2023-12-29 03:55:50,339] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:55:50,434] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.550 seconds
+[2023-12-29 03:56:20,811] {processor.py:163} INFO - Started process (PID=2020) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:56:20,814] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:56:20,816] {logging_mixin.py:109} INFO - [2023-12-29 03:56:20,815] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:56:20,895] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:56:20,917] {logging_mixin.py:109} INFO - [2023-12-29 03:56:20,917] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:56:20,955] {logging_mixin.py:109} INFO - [2023-12-29 03:56:20,955] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:56:20,987] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.182 seconds
+[2023-12-29 03:56:51,067] {processor.py:163} INFO - Started process (PID=2068) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:56:51,069] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:56:51,071] {logging_mixin.py:109} INFO - [2023-12-29 03:56:51,071] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:56:51,168] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:56:51,188] {logging_mixin.py:109} INFO - [2023-12-29 03:56:51,188] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:56:51,231] {logging_mixin.py:109} INFO - [2023-12-29 03:56:51,231] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:56:51,255] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.193 seconds
+[2023-12-29 03:57:21,638] {processor.py:163} INFO - Started process (PID=2124) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:57:21,642] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:57:21,644] {logging_mixin.py:109} INFO - [2023-12-29 03:57:21,644] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:57:21,730] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:57:21,749] {logging_mixin.py:109} INFO - [2023-12-29 03:57:21,749] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:57:21,781] {logging_mixin.py:109} INFO - [2023-12-29 03:57:21,781] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:57:21,806] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.181 seconds
+[2023-12-29 03:57:52,343] {processor.py:163} INFO - Started process (PID=2181) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:57:52,345] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:57:52,346] {logging_mixin.py:109} INFO - [2023-12-29 03:57:52,346] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:57:52,425] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:57:52,445] {logging_mixin.py:109} INFO - [2023-12-29 03:57:52,444] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:57:52,482] {logging_mixin.py:109} INFO - [2023-12-29 03:57:52,482] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:57:52,505] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.169 seconds
+[2023-12-29 03:58:22,774] {processor.py:163} INFO - Started process (PID=2238) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:58:22,777] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:58:22,779] {logging_mixin.py:109} INFO - [2023-12-29 03:58:22,778] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:58:22,860] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:58:22,878] {logging_mixin.py:109} INFO - [2023-12-29 03:58:22,878] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:58:22,912] {logging_mixin.py:109} INFO - [2023-12-29 03:58:22,912] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:58:22,962] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.193 seconds
+[2023-12-29 03:58:53,612] {processor.py:163} INFO - Started process (PID=2293) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:58:53,614] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:58:53,617] {logging_mixin.py:109} INFO - [2023-12-29 03:58:53,617] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:58:53,718] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:58:53,741] {logging_mixin.py:109} INFO - [2023-12-29 03:58:53,741] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:58:53,780] {logging_mixin.py:109} INFO - [2023-12-29 03:58:53,780] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:58:53,805] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.201 seconds
+[2023-12-29 03:59:24,436] {processor.py:163} INFO - Started process (PID=2349) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:59:24,455] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:59:24,469] {logging_mixin.py:109} INFO - [2023-12-29 03:59:24,468] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:59:24,949] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:59:25,026] {logging_mixin.py:109} INFO - [2023-12-29 03:59:25,026] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:59:25,189] {logging_mixin.py:109} INFO - [2023-12-29 03:59:25,188] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:59:25,306] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.878 seconds
+[2023-12-29 03:59:55,488] {processor.py:163} INFO - Started process (PID=2404) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:59:55,490] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 03:59:55,492] {logging_mixin.py:109} INFO - [2023-12-29 03:59:55,492] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:59:55,558] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 03:59:55,572] {logging_mixin.py:109} INFO - [2023-12-29 03:59:55,572] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 03:59:55,604] {logging_mixin.py:109} INFO - [2023-12-29 03:59:55,603] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 03:59:55,621] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.139 seconds
+[2023-12-29 04:00:25,867] {processor.py:163} INFO - Started process (PID=2460) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:00:25,869] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:00:25,871] {logging_mixin.py:109} INFO - [2023-12-29 04:00:25,871] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:00:25,958] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:00:25,976] {logging_mixin.py:109} INFO - [2023-12-29 04:00:25,975] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:00:26,013] {logging_mixin.py:109} INFO - [2023-12-29 04:00:26,013] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:00:26,032] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.171 seconds
+[2023-12-29 04:00:56,279] {processor.py:163} INFO - Started process (PID=2516) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:00:56,283] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:00:56,286] {logging_mixin.py:109} INFO - [2023-12-29 04:00:56,285] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:00:56,369] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:00:56,388] {logging_mixin.py:109} INFO - [2023-12-29 04:00:56,388] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:00:56,424] {logging_mixin.py:109} INFO - [2023-12-29 04:00:56,423] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:00:56,442] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.171 seconds
+[2023-12-29 04:01:26,791] {processor.py:163} INFO - Started process (PID=2573) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:01:26,794] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:01:26,796] {logging_mixin.py:109} INFO - [2023-12-29 04:01:26,795] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:01:26,872] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:01:26,889] {logging_mixin.py:109} INFO - [2023-12-29 04:01:26,889] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:01:26,920] {logging_mixin.py:109} INFO - [2023-12-29 04:01:26,920] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:01:26,939] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.156 seconds
+[2023-12-29 04:01:57,071] {processor.py:163} INFO - Started process (PID=2628) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:01:57,074] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:01:57,078] {logging_mixin.py:109} INFO - [2023-12-29 04:01:57,078] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:01:57,172] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:01:57,194] {logging_mixin.py:109} INFO - [2023-12-29 04:01:57,194] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:01:57,238] {logging_mixin.py:109} INFO - [2023-12-29 04:01:57,238] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:01:57,256] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.193 seconds
+[2023-12-29 04:02:27,417] {processor.py:163} INFO - Started process (PID=2686) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:02:27,419] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:02:27,421] {logging_mixin.py:109} INFO - [2023-12-29 04:02:27,421] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:02:27,495] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:02:27,521] {logging_mixin.py:109} INFO - [2023-12-29 04:02:27,520] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:02:27,560] {logging_mixin.py:109} INFO - [2023-12-29 04:02:27,560] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:02:27,580] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.169 seconds
+[2023-12-29 04:02:57,713] {processor.py:163} INFO - Started process (PID=2742) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:02:57,757] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:02:57,763] {logging_mixin.py:109} INFO - [2023-12-29 04:02:57,762] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:02:57,859] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:02:57,880] {logging_mixin.py:109} INFO - [2023-12-29 04:02:57,879] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:02:57,934] {logging_mixin.py:109} INFO - [2023-12-29 04:02:57,934] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:02:57,960] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.255 seconds
+[2023-12-29 04:03:28,929] {processor.py:163} INFO - Started process (PID=2799) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:03:28,931] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:03:28,933] {logging_mixin.py:109} INFO - [2023-12-29 04:03:28,933] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:03:29,074] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:03:29,097] {logging_mixin.py:109} INFO - [2023-12-29 04:03:29,097] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:03:29,149] {logging_mixin.py:109} INFO - [2023-12-29 04:03:29,148] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:03:29,188] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.266 seconds
+[2023-12-29 04:03:59,271] {processor.py:163} INFO - Started process (PID=2855) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:03:59,275] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:03:59,277] {logging_mixin.py:109} INFO - [2023-12-29 04:03:59,277] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:03:59,365] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:03:59,384] {logging_mixin.py:109} INFO - [2023-12-29 04:03:59,384] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:03:59,413] {logging_mixin.py:109} INFO - [2023-12-29 04:03:59,413] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:03:59,435] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.172 seconds
+[2023-12-29 04:04:30,236] {processor.py:163} INFO - Started process (PID=2911) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:04:30,239] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:04:30,241] {logging_mixin.py:109} INFO - [2023-12-29 04:04:30,241] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:04:30,333] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:04:30,351] {logging_mixin.py:109} INFO - [2023-12-29 04:04:30,351] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:04:30,386] {logging_mixin.py:109} INFO - [2023-12-29 04:04:30,386] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:04:30,405] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.182 seconds
+[2023-12-29 04:05:00,706] {processor.py:163} INFO - Started process (PID=2967) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:05:00,708] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:05:00,709] {logging_mixin.py:109} INFO - [2023-12-29 04:05:00,709] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:05:00,856] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:05:00,883] {logging_mixin.py:109} INFO - [2023-12-29 04:05:00,883] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:05:00,916] {logging_mixin.py:109} INFO - [2023-12-29 04:05:00,916] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:05:00,934] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.234 seconds
+[2023-12-29 04:05:31,621] {processor.py:163} INFO - Started process (PID=3024) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:05:31,623] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:05:31,625] {logging_mixin.py:109} INFO - [2023-12-29 04:05:31,624] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:05:31,703] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:05:31,718] {logging_mixin.py:109} INFO - [2023-12-29 04:05:31,718] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:05:31,751] {logging_mixin.py:109} INFO - [2023-12-29 04:05:31,750] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:05:31,769] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.154 seconds
+[2023-12-29 04:06:01,846] {processor.py:163} INFO - Started process (PID=3079) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:06:01,848] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:06:01,850] {logging_mixin.py:109} INFO - [2023-12-29 04:06:01,850] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:06:01,930] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:06:01,958] {logging_mixin.py:109} INFO - [2023-12-29 04:06:01,958] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:06:01,997] {logging_mixin.py:109} INFO - [2023-12-29 04:06:01,997] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:06:02,017] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.177 seconds
+[2023-12-29 04:06:32,312] {processor.py:163} INFO - Started process (PID=3135) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:06:32,315] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:06:32,317] {logging_mixin.py:109} INFO - [2023-12-29 04:06:32,317] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:06:32,388] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:06:32,404] {logging_mixin.py:109} INFO - [2023-12-29 04:06:32,404] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:06:32,433] {logging_mixin.py:109} INFO - [2023-12-29 04:06:32,432] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:06:32,448] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.145 seconds
+[2023-12-29 04:07:02,553] {processor.py:163} INFO - Started process (PID=3191) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:07:02,556] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:07:02,558] {logging_mixin.py:109} INFO - [2023-12-29 04:07:02,557] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:07:02,641] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:07:02,657] {logging_mixin.py:109} INFO - [2023-12-29 04:07:02,657] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:07:02,691] {logging_mixin.py:109} INFO - [2023-12-29 04:07:02,690] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:07:02,707] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.161 seconds
+[2023-12-29 04:07:33,635] {processor.py:163} INFO - Started process (PID=3247) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:07:33,636] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:07:33,638] {logging_mixin.py:109} INFO - [2023-12-29 04:07:33,638] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:07:33,707] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:07:33,724] {logging_mixin.py:109} INFO - [2023-12-29 04:07:33,724] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:07:33,756] {logging_mixin.py:109} INFO - [2023-12-29 04:07:33,756] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:07:33,775] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.146 seconds
+[2023-12-29 04:08:04,175] {processor.py:163} INFO - Started process (PID=3303) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:08:04,178] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:08:04,180] {logging_mixin.py:109} INFO - [2023-12-29 04:08:04,180] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:08:04,260] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:08:04,276] {logging_mixin.py:109} INFO - [2023-12-29 04:08:04,276] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:08:04,306] {logging_mixin.py:109} INFO - [2023-12-29 04:08:04,306] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:08:04,323] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.157 seconds
+[2023-12-29 04:08:34,538] {processor.py:163} INFO - Started process (PID=3359) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:08:34,541] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:08:34,543] {logging_mixin.py:109} INFO - [2023-12-29 04:08:34,543] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:08:34,645] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:08:34,664] {logging_mixin.py:109} INFO - [2023-12-29 04:08:34,664] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:08:34,700] {logging_mixin.py:109} INFO - [2023-12-29 04:08:34,700] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:08:34,718] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.188 seconds
+[2023-12-29 04:09:05,527] {processor.py:163} INFO - Started process (PID=3424) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:09:05,535] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:09:05,538] {logging_mixin.py:109} INFO - [2023-12-29 04:09:05,538] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:09:05,620] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:09:05,638] {logging_mixin.py:109} INFO - [2023-12-29 04:09:05,638] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:09:05,671] {logging_mixin.py:109} INFO - [2023-12-29 04:09:05,671] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:09:05,697] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.176 seconds
+[2023-12-29 04:09:36,250] {processor.py:163} INFO - Started process (PID=3480) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:09:36,254] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:09:36,257] {logging_mixin.py:109} INFO - [2023-12-29 04:09:36,257] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:09:36,326] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:09:36,347] {logging_mixin.py:109} INFO - [2023-12-29 04:09:36,347] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:09:36,379] {logging_mixin.py:109} INFO - [2023-12-29 04:09:36,379] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:09:36,399] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.156 seconds
+[2023-12-29 04:10:06,728] {processor.py:163} INFO - Started process (PID=3536) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:10:06,730] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:10:06,732] {logging_mixin.py:109} INFO - [2023-12-29 04:10:06,732] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:10:06,816] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:10:06,835] {logging_mixin.py:109} INFO - [2023-12-29 04:10:06,835] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:10:06,875] {logging_mixin.py:109} INFO - [2023-12-29 04:10:06,874] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:10:06,893] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.174 seconds
+[2023-12-29 04:10:37,162] {processor.py:163} INFO - Started process (PID=3592) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:10:37,167] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:10:37,170] {logging_mixin.py:109} INFO - [2023-12-29 04:10:37,170] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:10:37,326] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:10:37,347] {logging_mixin.py:109} INFO - [2023-12-29 04:10:37,347] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:10:37,384] {logging_mixin.py:109} INFO - [2023-12-29 04:10:37,384] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:10:37,406] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.253 seconds
+[2023-12-29 04:11:07,563] {processor.py:163} INFO - Started process (PID=3647) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:11:07,566] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:11:07,568] {logging_mixin.py:109} INFO - [2023-12-29 04:11:07,568] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:11:07,641] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:11:07,657] {logging_mixin.py:109} INFO - [2023-12-29 04:11:07,657] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:11:07,687] {logging_mixin.py:109} INFO - [2023-12-29 04:11:07,686] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:11:07,706] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.149 seconds
+[2023-12-29 04:11:37,839] {processor.py:163} INFO - Started process (PID=3703) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:11:37,842] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:11:37,845] {logging_mixin.py:109} INFO - [2023-12-29 04:11:37,844] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:11:37,950] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:11:37,974] {logging_mixin.py:109} INFO - [2023-12-29 04:11:37,974] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:11:38,019] {logging_mixin.py:109} INFO - [2023-12-29 04:11:38,019] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:11:38,044] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.211 seconds
+[2023-12-29 04:12:08,530] {processor.py:163} INFO - Started process (PID=3749) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:12:08,533] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:12:08,535] {logging_mixin.py:109} INFO - [2023-12-29 04:12:08,535] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:12:08,641] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:12:08,671] {logging_mixin.py:109} INFO - [2023-12-29 04:12:08,670] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:12:08,719] {logging_mixin.py:109} INFO - [2023-12-29 04:12:08,719] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:12:08,740] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.219 seconds
+[2023-12-29 04:12:38,964] {processor.py:163} INFO - Started process (PID=3805) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:12:38,967] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:12:38,968] {logging_mixin.py:109} INFO - [2023-12-29 04:12:38,968] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:12:39,107] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:12:39,131] {logging_mixin.py:109} INFO - [2023-12-29 04:12:39,131] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:12:39,191] {logging_mixin.py:109} INFO - [2023-12-29 04:12:39,191] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:12:39,215] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.260 seconds
+[2023-12-29 04:13:09,520] {processor.py:163} INFO - Started process (PID=3859) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:13:09,531] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:13:09,533] {logging_mixin.py:109} INFO - [2023-12-29 04:13:09,533] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:13:10,327] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:13:10,480] {logging_mixin.py:109} INFO - [2023-12-29 04:13:10,479] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:13:10,660] {logging_mixin.py:109} INFO - [2023-12-29 04:13:10,660] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:13:10,820] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 1.308 seconds
+[2023-12-29 04:13:43,455] {processor.py:163} INFO - Started process (PID=3911) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:13:43,479] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:13:43,489] {logging_mixin.py:109} INFO - [2023-12-29 04:13:43,489] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:13:43,965] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:13:44,002] {logging_mixin.py:109} INFO - [2023-12-29 04:13:44,001] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:13:44,227] {logging_mixin.py:109} INFO - [2023-12-29 04:13:44,226] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:13:44,289] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.840 seconds
+[2023-12-29 04:14:27,545] {processor.py:163} INFO - Started process (PID=3963) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:14:27,561] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:14:27,592] {logging_mixin.py:109} INFO - [2023-12-29 04:14:27,592] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:14:29,205] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:14:29,411] {logging_mixin.py:109} INFO - [2023-12-29 04:14:29,410] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:14:29,734] {logging_mixin.py:109} INFO - [2023-12-29 04:14:29,734] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:14:30,464] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 2.976 seconds
+[2023-12-29 04:15:27,204] {processor.py:163} INFO - Started process (PID=4010) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:15:27,281] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:15:27,302] {logging_mixin.py:109} INFO - [2023-12-29 04:15:27,301] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:15:28,912] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:15:29,051] {logging_mixin.py:109} INFO - [2023-12-29 04:15:29,051] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:15:29,476] {logging_mixin.py:109} INFO - [2023-12-29 04:15:29,475] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:15:29,678] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 2.512 seconds
+[2023-12-29 04:16:00,521] {processor.py:163} INFO - Started process (PID=4060) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:16:00,527] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:16:00,534] {logging_mixin.py:109} INFO - [2023-12-29 04:16:00,534] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:16:00,733] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:16:00,771] {logging_mixin.py:109} INFO - [2023-12-29 04:16:00,770] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:16:00,867] {logging_mixin.py:109} INFO - [2023-12-29 04:16:00,867] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:16:00,889] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.375 seconds
+[2023-12-29 04:16:31,558] {processor.py:163} INFO - Started process (PID=4115) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:16:31,572] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:16:31,584] {logging_mixin.py:109} INFO - [2023-12-29 04:16:31,584] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:16:31,756] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:16:31,806] {logging_mixin.py:109} INFO - [2023-12-29 04:16:31,806] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:16:31,883] {logging_mixin.py:109} INFO - [2023-12-29 04:16:31,882] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:16:31,940] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.403 seconds
+[2023-12-29 04:17:03,817] {processor.py:163} INFO - Started process (PID=4165) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:17:03,834] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:17:03,836] {logging_mixin.py:109} INFO - [2023-12-29 04:17:03,836] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:17:04,243] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:17:04,908] {logging_mixin.py:109} INFO - [2023-12-29 04:17:04,908] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:17:05,863] {logging_mixin.py:109} INFO - [2023-12-29 04:17:05,863] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:17:06,082] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 2.193 seconds
+[2023-12-29 04:17:37,837] {processor.py:163} INFO - Started process (PID=4214) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:17:37,853] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:17:37,855] {logging_mixin.py:109} INFO - [2023-12-29 04:17:37,855] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:17:38,271] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:17:38,324] {logging_mixin.py:109} INFO - [2023-12-29 04:17:38,324] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:17:38,385] {logging_mixin.py:109} INFO - [2023-12-29 04:17:38,385] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:17:38,678] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.854 seconds
+[2023-12-29 04:18:09,232] {processor.py:163} INFO - Started process (PID=4269) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:18:09,239] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:18:09,246] {logging_mixin.py:109} INFO - [2023-12-29 04:18:09,246] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:18:09,541] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:18:09,652] {logging_mixin.py:109} INFO - [2023-12-29 04:18:09,652] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:18:09,835] {logging_mixin.py:109} INFO - [2023-12-29 04:18:09,834] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:18:09,964] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.740 seconds
+[2023-12-29 04:18:40,304] {processor.py:163} INFO - Started process (PID=4315) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:18:40,316] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:18:40,320] {logging_mixin.py:109} INFO - [2023-12-29 04:18:40,319] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:18:40,487] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:18:40,520] {logging_mixin.py:109} INFO - [2023-12-29 04:18:40,520] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:18:40,570] {logging_mixin.py:109} INFO - [2023-12-29 04:18:40,570] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:18:40,616] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.338 seconds
+[2023-12-29 04:19:10,804] {processor.py:163} INFO - Started process (PID=4370) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:19:10,816] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:19:10,820] {logging_mixin.py:109} INFO - [2023-12-29 04:19:10,820] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:19:11,018] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:19:11,070] {logging_mixin.py:109} INFO - [2023-12-29 04:19:11,070] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:19:11,155] {logging_mixin.py:109} INFO - [2023-12-29 04:19:11,155] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:19:11,213] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.422 seconds
+[2023-12-29 04:19:42,150] {processor.py:163} INFO - Started process (PID=4421) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:19:42,158] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:19:42,162] {logging_mixin.py:109} INFO - [2023-12-29 04:19:42,162] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:19:42,370] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:19:42,417] {logging_mixin.py:109} INFO - [2023-12-29 04:19:42,417] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:19:42,569] {logging_mixin.py:109} INFO - [2023-12-29 04:19:42,569] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:19:42,639] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.516 seconds
+[2023-12-29 04:20:13,638] {processor.py:163} INFO - Started process (PID=4470) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:20:13,641] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:20:13,645] {logging_mixin.py:109} INFO - [2023-12-29 04:20:13,643] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:20:13,784] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:20:13,808] {logging_mixin.py:109} INFO - [2023-12-29 04:20:13,808] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:20:13,862] {logging_mixin.py:109} INFO - [2023-12-29 04:20:13,862] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:20:13,928] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.300 seconds
+[2023-12-29 04:20:48,876] {processor.py:163} INFO - Started process (PID=4524) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:20:48,879] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:20:48,882] {logging_mixin.py:109} INFO - [2023-12-29 04:20:48,881] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:20:50,369] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:20:50,588] {logging_mixin.py:109} INFO - [2023-12-29 04:20:50,587] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:20:50,932] {logging_mixin.py:109} INFO - [2023-12-29 04:20:50,932] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:20:51,145] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 2.276 seconds
+[2023-12-29 04:21:21,914] {processor.py:163} INFO - Started process (PID=4571) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:21:21,927] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:21:21,936] {logging_mixin.py:109} INFO - [2023-12-29 04:21:21,936] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:21:22,251] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:21:22,293] {logging_mixin.py:109} INFO - [2023-12-29 04:21:22,293] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:21:22,381] {logging_mixin.py:109} INFO - [2023-12-29 04:21:22,380] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:21:22,422] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.524 seconds
+[2023-12-29 04:21:55,407] {processor.py:163} INFO - Started process (PID=4626) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:21:55,426] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:21:55,460] {logging_mixin.py:109} INFO - [2023-12-29 04:21:55,460] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:21:56,166] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:21:56,268] {logging_mixin.py:109} INFO - [2023-12-29 04:21:56,267] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:21:56,513] {logging_mixin.py:109} INFO - [2023-12-29 04:21:56,513] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:21:56,628] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 1.294 seconds
+[2023-12-29 04:22:27,116] {processor.py:163} INFO - Started process (PID=4672) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:22:27,119] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:22:27,121] {logging_mixin.py:109} INFO - [2023-12-29 04:22:27,121] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:22:27,254] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:22:27,287] {logging_mixin.py:109} INFO - [2023-12-29 04:22:27,286] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:22:27,358] {logging_mixin.py:109} INFO - [2023-12-29 04:22:27,358] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:22:27,426] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.333 seconds
+[2023-12-29 04:22:58,522] {processor.py:163} INFO - Started process (PID=4727) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:22:58,527] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:22:58,536] {logging_mixin.py:109} INFO - [2023-12-29 04:22:58,535] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:22:58,824] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:22:58,883] {logging_mixin.py:109} INFO - [2023-12-29 04:22:58,883] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:22:59,005] {logging_mixin.py:109} INFO - [2023-12-29 04:22:59,005] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:22:59,176] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.703 seconds
+[2023-12-29 04:23:30,652] {processor.py:163} INFO - Started process (PID=4780) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:23:30,674] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:23:30,695] {logging_mixin.py:109} INFO - [2023-12-29 04:23:30,695] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:23:31,576] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:23:31,697] {logging_mixin.py:109} INFO - [2023-12-29 04:23:31,696] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:23:31,842] {logging_mixin.py:109} INFO - [2023-12-29 04:23:31,842] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:23:31,929] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 1.296 seconds
+[2023-12-29 04:24:02,729] {processor.py:163} INFO - Started process (PID=4829) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:24:02,745] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:24:02,760] {logging_mixin.py:109} INFO - [2023-12-29 04:24:02,760] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:24:03,397] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:24:03,477] {logging_mixin.py:109} INFO - [2023-12-29 04:24:03,476] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:24:03,599] {logging_mixin.py:109} INFO - [2023-12-29 04:24:03,599] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:24:03,672] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 1.029 seconds
+[2023-12-29 04:24:35,121] {processor.py:163} INFO - Started process (PID=4883) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:24:35,173] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:24:35,176] {logging_mixin.py:109} INFO - [2023-12-29 04:24:35,175] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:24:35,719] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:24:35,851] {logging_mixin.py:109} INFO - [2023-12-29 04:24:35,850] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:24:36,049] {logging_mixin.py:109} INFO - [2023-12-29 04:24:36,049] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:24:36,184] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 1.071 seconds
+[2023-12-29 04:25:06,828] {processor.py:163} INFO - Started process (PID=4930) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:25:06,831] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:25:06,847] {logging_mixin.py:109} INFO - [2023-12-29 04:25:06,847] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:25:07,119] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:25:07,249] {logging_mixin.py:109} INFO - [2023-12-29 04:25:07,248] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:25:07,398] {logging_mixin.py:109} INFO - [2023-12-29 04:25:07,398] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:25:07,491] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.675 seconds
+[2023-12-29 04:25:37,772] {processor.py:163} INFO - Started process (PID=4985) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:25:37,774] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:25:37,776] {logging_mixin.py:109} INFO - [2023-12-29 04:25:37,776] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:25:37,896] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:25:37,920] {logging_mixin.py:109} INFO - [2023-12-29 04:25:37,920] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:25:37,971] {logging_mixin.py:109} INFO - [2023-12-29 04:25:37,971] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:25:38,001] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.248 seconds
+[2023-12-29 04:26:08,545] {processor.py:163} INFO - Started process (PID=5029) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:26:08,582] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:26:08,609] {logging_mixin.py:109} INFO - [2023-12-29 04:26:08,591] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:26:08,874] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:26:08,931] {logging_mixin.py:109} INFO - [2023-12-29 04:26:08,931] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:26:09,059] {logging_mixin.py:109} INFO - [2023-12-29 04:26:09,058] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:26:09,135] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.615 seconds
+[2023-12-29 04:26:45,669] {processor.py:163} INFO - Started process (PID=5085) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:26:45,673] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:26:45,675] {logging_mixin.py:109} INFO - [2023-12-29 04:26:45,675] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:26:45,872] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:26:45,931] {logging_mixin.py:109} INFO - [2023-12-29 04:26:45,931] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:26:46,181] {logging_mixin.py:109} INFO - [2023-12-29 04:26:46,180] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:26:46,405] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.748 seconds
+[2023-12-29 04:27:21,234] {processor.py:163} INFO - Started process (PID=5140) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:27:21,251] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:27:21,265] {logging_mixin.py:109} INFO - [2023-12-29 04:27:21,264] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:27:23,948] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:27:24,122] {logging_mixin.py:109} INFO - [2023-12-29 04:27:24,111] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:27:24,415] {logging_mixin.py:109} INFO - [2023-12-29 04:27:24,415] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:27:24,562] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 3.380 seconds
+[2023-12-29 04:27:35,451] {processor.py:163} INFO - Started process (PID=5155) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:27:35,454] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:27:35,461] {logging_mixin.py:109} INFO - [2023-12-29 04:27:35,461] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:27:35,931] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:27:36,169] {logging_mixin.py:109} INFO - [2023-12-29 04:27:36,168] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:27:36,646] {logging_mixin.py:109} INFO - [2023-12-29 04:27:36,646] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:27:36,879] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 1.447 seconds
+[2023-12-29 04:28:28,902] {processor.py:163} INFO - Started process (PID=5215) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:28:28,917] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:28:28,919] {logging_mixin.py:109} INFO - [2023-12-29 04:28:28,919] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:28:29,360] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:28:29,508] {logging_mixin.py:109} INFO - [2023-12-29 04:28:29,507] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:28:29,660] {logging_mixin.py:109} INFO - [2023-12-29 04:28:29,660] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:28:29,771] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.879 seconds
+[2023-12-29 04:29:17,929] {processor.py:163} INFO - Started process (PID=5275) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:29:17,981] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:29:18,007] {logging_mixin.py:109} INFO - [2023-12-29 04:29:18,006] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:29:18,290] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:29:18,355] {logging_mixin.py:109} INFO - [2023-12-29 04:29:18,355] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:29:18,424] {logging_mixin.py:109} INFO - [2023-12-29 04:29:18,424] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:29:18,495] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.616 seconds
+[2023-12-29 04:29:50,035] {processor.py:163} INFO - Started process (PID=5331) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:29:50,086] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:29:50,093] {logging_mixin.py:109} INFO - [2023-12-29 04:29:50,093] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:29:50,347] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:29:50,436] {logging_mixin.py:109} INFO - [2023-12-29 04:29:50,433] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:29:50,530] {logging_mixin.py:109} INFO - [2023-12-29 04:29:50,530] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:29:50,594] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.584 seconds
+[2023-12-29 04:30:25,795] {processor.py:163} INFO - Started process (PID=5378) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:30:25,808] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:30:25,820] {logging_mixin.py:109} INFO - [2023-12-29 04:30:25,820] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:30:26,127] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:30:26,276] {logging_mixin.py:109} INFO - [2023-12-29 04:30:26,276] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:30:26,474] {logging_mixin.py:109} INFO - [2023-12-29 04:30:26,474] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:30:26,880] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 1.093 seconds
+[2023-12-29 04:31:01,873] {processor.py:163} INFO - Started process (PID=5433) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:31:01,892] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:31:01,910] {logging_mixin.py:109} INFO - [2023-12-29 04:31:01,910] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:31:03,111] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:31:03,198] {logging_mixin.py:109} INFO - [2023-12-29 04:31:03,196] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:31:03,310] {logging_mixin.py:109} INFO - [2023-12-29 04:31:03,309] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:31:03,405] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 1.568 seconds
+[2023-12-29 04:31:39,546] {processor.py:163} INFO - Started process (PID=5488) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:31:39,582] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:31:39,589] {logging_mixin.py:109} INFO - [2023-12-29 04:31:39,589] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:31:39,986] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:31:40,150] {logging_mixin.py:109} INFO - [2023-12-29 04:31:40,149] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:31:40,260] {logging_mixin.py:109} INFO - [2023-12-29 04:31:40,260] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:31:40,395] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.857 seconds
+[2023-12-29 04:32:11,031] {processor.py:163} INFO - Started process (PID=5543) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:32:11,039] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:32:11,041] {logging_mixin.py:109} INFO - [2023-12-29 04:32:11,041] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:32:11,154] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:32:11,180] {logging_mixin.py:109} INFO - [2023-12-29 04:32:11,180] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:32:11,210] {logging_mixin.py:109} INFO - [2023-12-29 04:32:11,210] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:32:11,237] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.216 seconds
+[2023-12-29 04:32:41,481] {processor.py:163} INFO - Started process (PID=5591) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:32:41,485] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:32:41,492] {logging_mixin.py:109} INFO - [2023-12-29 04:32:41,492] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:32:41,701] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:32:41,787] {logging_mixin.py:109} INFO - [2023-12-29 04:32:41,786] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:32:41,915] {logging_mixin.py:109} INFO - [2023-12-29 04:32:41,915] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:32:41,983] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.518 seconds
+[2023-12-29 04:33:12,221] {processor.py:163} INFO - Started process (PID=5649) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:33:12,224] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:33:12,227] {logging_mixin.py:109} INFO - [2023-12-29 04:33:12,227] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:33:12,426] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:33:12,448] {logging_mixin.py:109} INFO - [2023-12-29 04:33:12,447] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:33:12,479] {logging_mixin.py:109} INFO - [2023-12-29 04:33:12,479] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:33:12,499] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.294 seconds
+[2023-12-29 04:33:43,056] {processor.py:163} INFO - Started process (PID=5704) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:33:43,069] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:33:43,073] {logging_mixin.py:109} INFO - [2023-12-29 04:33:43,072] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:33:43,205] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:33:43,235] {logging_mixin.py:109} INFO - [2023-12-29 04:33:43,235] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:33:43,278] {logging_mixin.py:109} INFO - [2023-12-29 04:33:43,278] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:33:43,340] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.299 seconds
+[2023-12-29 04:34:13,734] {processor.py:163} INFO - Started process (PID=5751) to work on /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:34:13,740] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_smtp_emails.py for tasks to queue
+[2023-12-29 04:34:13,746] {logging_mixin.py:109} INFO - [2023-12-29 04:34:13,745] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:34:13,973] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_automatico']) retrieved from /opt/airflow/dags/dag_smtp_emails.py
+[2023-12-29 04:34:14,022] {logging_mixin.py:109} INFO - [2023-12-29 04:34:14,022] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-12-29 04:34:14,092] {logging_mixin.py:109} INFO - [2023-12-29 04:34:14,092] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_automatico to 2023-05-17T00:00:00+00:00
+[2023-12-29 04:34:14,130] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_smtp_emails.py took 0.404 seconds

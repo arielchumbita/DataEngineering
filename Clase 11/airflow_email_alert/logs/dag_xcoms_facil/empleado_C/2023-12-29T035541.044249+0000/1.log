@@ -1,0 +1,2 @@
+[2023-12-29 03:55:51,704] {taskinstance.py:1026} INFO - Dependencies not met for <TaskInstance: dag_xcoms_facil.empleado_C manual__2023-12-29T03:55:41.044249+00:00 [queued]>, dependency 'Execution Date' FAILED: The execution date is 2023-12-29T03:55:41.044249+00:00 but this is after the task's end date 2023-12-29T00:00:00+00:00.
+[2023-12-29 03:55:51,774] {local_task_job.py:99} INFO - Task is not able to be run
