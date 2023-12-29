@@ -1,9 +1,14 @@
 from datetime import timedelta,datetime
 from pathlib import Path
+from email import message
+from airflow.models import DAG, Variable
+#from airflow import DAG
+
 import json
 import requests
 import psycopg2
-from airflow import DAG
+import smtplib #Libreria que da el proceso para enviar el mensaje
+
 from sqlalchemy import create_engine
 # Operadores
 from airflow.operators.python_operator import PythonOperator
