@@ -3,6 +3,7 @@ from airflow.operators.python import PythonOperator, BranchPythonOperator
 from datetime import datetime
 from random import randint 
 
+#Crea números aleatoreos del 1 al 10
 def _performance():
     return randint(1,10)
 
@@ -26,11 +27,11 @@ def _usar_tarea(ti):
 
 
 default_args={
-    'owner': 'DavidBU',
-    'start_date': datetime(2023,5,12),
-    'end_date': datetime(2023,5,20),
+    'owner': 'ArielChumbita',
+    'start_date': datetime(2023,12,29),
+    'end_date': datetime(2023,12,30),
     'depends_on_past': False,
-    'email': ['davidbu@gcp.com'],
+    'email': ['ariel-2401@hotmail.com'],
     'email_on_failure': False
 }
 with DAG(
