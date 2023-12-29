@@ -1,0 +1,24 @@
+[2023-12-29 02:34:07,904] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dag_smtp_email_fin_mundo.dag_envio_fin_mundo manual__2023-12-29T02:33:58.837149+00:00 [queued]>
+[2023-12-29 02:34:08,017] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dag_smtp_email_fin_mundo.dag_envio_fin_mundo manual__2023-12-29T02:33:58.837149+00:00 [queued]>
+[2023-12-29 02:34:08,019] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-29 02:34:08,027] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2023-12-29 02:34:08,030] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-29 02:34:08,150] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): dag_envio_fin_mundo> on 2023-12-29 02:33:58.837149+00:00
+[2023-12-29 02:34:08,176] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'dag_smtp_email_fin_mundo', 'dag_envio_fin_mundo', 'manual__2023-12-29T02:33:58.837149+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/Microdesafio_Semana11.py', '--cfg-path', '/tmp/tmpjoo1cbuu', '--error-file', '/tmp/tmptbg9n51h']
+[2023-12-29 02:34:08,183] {standard_task_runner.py:77} INFO - Job 9: Subtask dag_envio_fin_mundo
+[2023-12-29 02:34:08,164] {standard_task_runner.py:52} INFO - Started process 1031 to run task
+[2023-12-29 02:34:08,599] {logging_mixin.py:109} INFO - Running <TaskInstance: dag_smtp_email_fin_mundo.dag_envio_fin_mundo manual__2023-12-29T02:33:58.837149+00:00 [running]> on host 2762520f2c23
+[2023-12-29 02:34:08,950] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=ArielChumbita
+AIRFLOW_CTX_DAG_ID=dag_smtp_email_fin_mundo
+AIRFLOW_CTX_TASK_ID=dag_envio_fin_mundo
+AIRFLOW_CTX_EXECUTION_DATE=2023-12-29T02:33:58.837149+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-12-29T02:33:58.837149+00:00
+[2023-12-29 02:34:11,111] {logging_mixin.py:109} INFO - 'ascii' codec can't encode character '\xe9' in position 549: ordinal not in range(128)
+[2023-12-29 02:34:11,112] {logging_mixin.py:109} INFO - Failure
+[2023-12-29 02:34:11,115] {python.py:175} INFO - Done. Returned value was: None
+[2023-12-29 02:34:11,204] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=dag_smtp_email_fin_mundo, task_id=dag_envio_fin_mundo, execution_date=20231229T023358, start_date=20231229T023407, end_date=20231229T023411
+[2023-12-29 02:34:11,331] {local_task_job.py:154} INFO - Task exited with return code 0
+[2023-12-29 02:34:11,643] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

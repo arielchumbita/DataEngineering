@@ -25,7 +25,7 @@ dag = DAG(
 def print_message():
     print("Llegó el archivo!")
 
-
+#Sensor de archivo, sensa si existe o no.
 file_sensor = FileSensor(
     task_id="sensar_archivo",
     poke_interval=60,
@@ -33,7 +33,7 @@ file_sensor = FileSensor(
     filepath='/opt/airflow/data/compania1/data-*.csv',
 )
 
-
+#Imprime mensaje en pantalla.
 imprimir = PythonOperator(
     task_id="print_message",
     dag=dag,
