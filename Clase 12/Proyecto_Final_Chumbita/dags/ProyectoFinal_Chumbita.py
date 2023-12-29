@@ -32,13 +32,13 @@ redshift_conn = {
 # argumentos por defecto para el DAG
 default_args = {
     'owner': 'ArielChumbita',
-    'start_date': datetime(2023,12,11),
+    'start_date': datetime(2023,12,28),
     'retries':5,
     'retry_delay': timedelta(minutes=5)
 }
 
 BC_dag = DAG(
-    dag_id='Entregable3_Chumbita',
+    dag_id='ProyectoFinal_Chumbita',
     default_args=default_args,
     description='Agrega data de Bitcoin de forma diaria',
     schedule_interval="@daily",
