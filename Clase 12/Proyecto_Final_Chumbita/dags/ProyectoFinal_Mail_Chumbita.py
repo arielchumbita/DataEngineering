@@ -9,7 +9,7 @@ def enviar():
     try:
         x=smtplib.SMTP('smtp.gmail.com',587)
         x.starttls()
-        x.login('ariel.chumbita@gmail.com','wprozivegdgkpnnn')
+        x.login('ariel.chumbita@gmail.com','password')
         subject='ProyectoFinal_Chumbita'
         body_text='Aviso proyecto final Ariel Chumbita!!!!'
         message='Subject: {}\n\n{}'.format(subject,body_text)
