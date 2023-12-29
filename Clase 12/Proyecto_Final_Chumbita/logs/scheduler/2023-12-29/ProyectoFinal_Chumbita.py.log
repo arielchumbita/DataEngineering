@@ -681,3 +681,7 @@
 [2023-12-29 05:28:52,731] {processor.py:153} INFO - Started process (PID=1412) to work on /opt/airflow/dags/ProyectoFinal_Chumbita.py
 [2023-12-29 05:28:52,732] {processor.py:641} INFO - Processing file /opt/airflow/dags/ProyectoFinal_Chumbita.py for tasks to queue
 [2023-12-29 05:28:52,734] {logging_mixin.py:115} INFO - [2023-12-29 05:28:52,733] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/ProyectoFinal_Chumbita.py
+[2023-12-29 05:28:53,787] {processor.py:651} INFO - DAG(s) dict_keys(['ProyectoFinal_Chumbita']) retrieved from /opt/airflow/dags/ProyectoFinal_Chumbita.py
+[2023-12-29 05:28:53,832] {logging_mixin.py:115} INFO - [2023-12-29 05:28:53,832] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-29 05:28:53,882] {logging_mixin.py:115} INFO - [2023-12-29 05:28:53,882] {dag.py:2972} INFO - Setting next_dagrun for ProyectoFinal_Chumbita to 2023-12-29T00:00:00+00:00, run_after=2023-12-30T00:00:00+00:00
+[2023-12-29 05:28:53,923] {processor.py:161} INFO - Processing /opt/airflow/dags/ProyectoFinal_Chumbita.py took 1.201 seconds
