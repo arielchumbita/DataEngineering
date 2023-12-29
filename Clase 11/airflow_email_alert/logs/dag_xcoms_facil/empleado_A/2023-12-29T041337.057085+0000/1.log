@@ -1,0 +1,23 @@
+[2023-12-29 04:13:45,007] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dag_xcoms_facil.empleado_A manual__2023-12-29T04:13:37.057085+00:00 [queued]>
+[2023-12-29 04:13:45,078] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dag_xcoms_facil.empleado_A manual__2023-12-29T04:13:37.057085+00:00 [queued]>
+[2023-12-29 04:13:45,078] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-29 04:13:45,079] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2023-12-29 04:13:45,080] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-29 04:13:45,179] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): empleado_A> on 2023-12-29 04:13:37.057085+00:00
+[2023-12-29 04:13:45,256] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'dag_xcoms_facil', 'empleado_A', 'manual__2023-12-29T04:13:37.057085+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/dag_actividad_xcoms.py', '--cfg-path', '/tmp/tmpjlkqd9fs', '--error-file', '/tmp/tmpp4ovyu5p']
+[2023-12-29 04:13:45,277] {standard_task_runner.py:77} INFO - Job 24: Subtask empleado_A
+[2023-12-29 04:13:45,202] {standard_task_runner.py:52} INFO - Started process 1379 to run task
+[2023-12-29 04:13:45,795] {logging_mixin.py:109} INFO - Running <TaskInstance: dag_xcoms_facil.empleado_A manual__2023-12-29T04:13:37.057085+00:00 [running]> on host 2762520f2c23
+[2023-12-29 04:13:46,832] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=ariel-2401@hotmail.com
+AIRFLOW_CTX_DAG_OWNER=ArielChumbita
+AIRFLOW_CTX_DAG_ID=dag_xcoms_facil
+AIRFLOW_CTX_TASK_ID=empleado_A
+AIRFLOW_CTX_EXECUTION_DATE=2023-12-29T04:13:37.057085+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-12-29T04:13:37.057085+00:00
+[2023-12-29 04:13:46,871] {python.py:175} INFO - Done. Returned value was: 10
+[2023-12-29 04:13:47,131] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=dag_xcoms_facil, task_id=empleado_A, execution_date=20231229T041337, start_date=20231229T041345, end_date=20231229T041347
+[2023-12-29 04:13:47,252] {local_task_job.py:154} INFO - Task exited with return code 0
+[2023-12-29 04:13:47,472] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
