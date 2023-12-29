@@ -584,3 +584,71 @@ File Path                                         PID    Runtime      # DAGs    
 /opt/airflow/dags/ProyectoFinal_Chumbita.py                                1           0  1.61s           2023-12-29T05:28:17
 /opt/airflow/dags/ProyectoFinal_Mail_Chumbita.py                           1           0  0.25s           2023-12-29T05:28:10
 ================================================================================
+[2023-12-29 05:28:49,448] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ProyectoFinal_Chumbita.py                                1           0  2.54s           2023-12-29T05:28:42
+/opt/airflow/dags/ProyectoFinal_Mail_Chumbita.py                           1           0  0.59s           2023-12-29T05:28:41
+================================================================================
+[2023-12-29 05:29:19,831] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ProyectoFinal_Chumbita.py                                1           0  1.50s           2023-12-29T05:29:17
+/opt/airflow/dags/ProyectoFinal_Mail_Chumbita.py                           1           0  0.45s           2023-12-29T05:29:13
+================================================================================
+[2023-12-29 05:29:50,445] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ProyectoFinal_Chumbita.py                                1           0  0.82s           2023-12-29T05:29:50
+/opt/airflow/dags/ProyectoFinal_Mail_Chumbita.py                           1           0  0.22s           2023-12-29T05:29:44
+================================================================================
+[2023-12-29 05:30:20,555] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ProyectoFinal_Chumbita.py                                1           0  0.84s           2023-12-29T05:30:13
+/opt/airflow/dags/ProyectoFinal_Mail_Chumbita.py                           1           0  0.20s           2023-12-29T05:30:15
+================================================================================
+[2023-12-29 05:30:23,573] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-12-29 05:30:23,664] {manager.py:693} INFO - There are 2 files in /opt/airflow/dags
+[2023-12-29 05:30:50,898] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ProyectoFinal_Chumbita.py                                1           0  1.03s           2023-12-29T05:30:47
+/opt/airflow/dags/ProyectoFinal_Mail_Chumbita.py                           1           0  0.37s           2023-12-29T05:30:46
+================================================================================
+[2023-12-29 05:31:21,608] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ProyectoFinal_Chumbita.py        1560  0.01s             1           0  2.21s           2023-12-29T05:31:11
+/opt/airflow/dags/ProyectoFinal_Mail_Chumbita.py                           1           0  0.27s           2023-12-29T05:31:17
+================================================================================
+[2023-12-29 05:31:51,840] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ProyectoFinal_Chumbita.py                                1           0  0.85s           2023-12-29T05:31:44
+/opt/airflow/dags/ProyectoFinal_Mail_Chumbita.py                           1           0  0.47s           2023-12-29T05:31:49
+================================================================================
+[2023-12-29 05:32:12,548] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
+[2023-12-29 05:32:12,597] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
+[2023-12-29 05:32:18,674] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
