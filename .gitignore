@@ -1,3 +1,7 @@
 *.env
 Clase 10/Microdesafio/logs/scheduler/latest
 Clase 10/Entregable3_Chumbita/logs/scheduler/latest
+Clase 10/01-Microdesafio/logs/dag_id=dag_con_conexion_postgres/run_id=manual__2023-12-11T081215.530534+0000/task_id=crear_tabla_postgres/attempt=1.log
+Clase 10/01-Microdesafio/logs/scheduler/latest
+Clase 10/2-ETL con Airflow y Docker/logs/scheduler/latest
+Clase 11/airflow_email_alert/logs/scheduler/latest
